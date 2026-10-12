@@ -23,4 +23,4 @@ All data in the exercise is **synthetic**. County names are real and county size
 
 - `slides/`: the lecture deck (Quarto reveal.js, CalData theme). To render locally, run `quarto render` from the repo root and open `_site/slides/index.html`. The `_site/` folder is gitignored, so your editor may grey it out or hide it. Pushing changes to `main` republishes the site through GitHub Actions.
 - `exercise/`: the student notebook, helper functions, and synthetic data.
-- `instructor/`: the debrief guide and a help guide for stuck students.
+- `instructor/`: the debrief guide, a help guide for stuck students, and caveats on the deck's sources.
