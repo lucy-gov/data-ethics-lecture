@@ -1,0 +1,5 @@
+# Defaults for the internal-doc template: the paper layout without section
+# numbers. Use after common.yml and paper-defaults.yml (later files win;
+# values in _quarto.yml itself don't override metadata-files).
+
+number-sections: false

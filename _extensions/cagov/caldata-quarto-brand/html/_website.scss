@@ -1,0 +1,491 @@
+// Websites and books, styled after innovation.ca.gov: light orange-tint
+// header (organization name above the site title, search box on the right),
+// a navigation row beneath it, blue Merriweather headings, larger body text,
+// and a footer with a legal-links strip. Imported by html/custom.scss; these
+// selectors only exist in website and book projects. Colors come from
+// _brand.yml via --brand-* variables. The navbar uses `background: light`
+// (_metadata/website-defaults.yml) so Bootstrap derives dark icon colors.
+
+// Website and book pages (single documents have neither class).
+$site: "body.nav-fixed, body.nav-sidebar";
+
+// --- Page background ------------------------------------------------------------
+// The header's orange tint fades to white down the top of the page.
+
+#{$site} {
+  background: linear-gradient(to bottom, var(--brand-orange-tint), var(--brand-white) 36rem) no-repeat;
+}
+
+// --- Header -------------------------------------------------------------------------
+
+#quarto-header {
+  background-color: var(--brand-orange-tint);
+}
+
+// Focused elements aren't hidden under the taller two-row header (2.4.11).
+html:has(body.nav-fixed) {
+  scroll-padding-top: 10rem;
+}
+
+.navbar {
+  background-color: transparent !important;
+  padding: 0;
+
+  // Row 1: logo, organization name + site title, search. Row 2: navigation.
+  .navbar-container {
+    flex-wrap: wrap;
+    padding: 0.75rem 1.5rem 0 !important;
+  }
+
+  .navbar-brand-container {
+    margin: 0 !important;
+    min-height: 64px;
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    color: var(--brand-black) !important;
+    white-space: normal;
+  }
+
+  .navbar-logo {
+    max-height: 44px;
+    flex-shrink: 0;
+  }
+
+  .navbar-brand-logo {
+    flex-shrink: 0;
+  }
+
+  // Organization name (set by filters/website.lua from _brand.yml) above the title.
+  .navbar-title {
+    font-family: $headings-font-family;
+    font-weight: 700;
+    font-size: 1.75rem;
+    line-height: 1.2;
+    color: var(--brand-black);
+
+    &::before {
+      display: block;
+      font-family: $font-family-base;
+      font-size: 1rem;
+      font-weight: 500;
+    }
+
+    @media (max-width: 575.98px) {
+      font-size: 1.3rem;
+
+      &::before {
+        font-size: 0.8rem;
+      }
+    }
+  }
+
+  #quarto-search {
+    margin-left: auto;
+    order: 2;
+  }
+
+  .navbar-toggler {
+    order: 3;
+    margin-left: 1rem;
+    color: var(--brand-blue) !important;
+    border-color: var(--brand-blue);
+  }
+
+  // Navigation row between thin blue rules, full width under row 1.
+  .navbar-collapse {
+    order: 4;
+    flex-basis: 100%;
+    margin: 0.75rem -1.5rem 0;
+    padding: 0 1.5rem;
+    border-top: 1px solid var(--brand-blue);
+    border-bottom: 1px solid var(--brand-blue);
+  }
+
+  .quarto-navbar-tools {
+    order: 5;
+  }
+
+  // Links: blue, 44px targets; hover and current page get a blue underline.
+  .nav-link,
+  .menu-text {
+    color: var(--brand-blue) !important;
+  }
+
+  .nav-link {
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin-right: 1.5rem;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    border-bottom: 3px solid transparent;
+
+    &:hover,
+    &.active {
+      border-bottom-color: var(--brand-blue);
+    }
+
+    &.active {
+      font-weight: 700;
+    }
+  }
+}
+
+// Search box (`search: type: textbox`): bordered field with a blue button look.
+#quarto-search {
+  .aa-Form {
+    border: 1px solid var(--brand-blue);
+    border-radius: 0;
+    background: var(--brand-white);
+    min-height: 44px;
+  }
+
+  .aa-SubmitIcon,
+  svg {
+    color: var(--brand-blue);
+  }
+}
+
+// --- Breadcrumbs --------------------------------------------------------------------
+
+.quarto-page-breadcrumbs .breadcrumb,
+#title-block-header .breadcrumb {
+  background: var(--brand-white);
+  padding: 0.6rem 0.75rem;
+  margin-bottom: 1.5rem;
+  font-size: 0.875rem;
+
+  a {
+    color: var(--brand-blue);
+    text-decoration: underline;
+    text-underline-offset: 0.15em;
+  }
+
+  .breadcrumb-item + .breadcrumb-item::before {
+    content: "/";
+    color: var(--brand-charcoal);
+  }
+}
+
+// --- Typography ------------------------------------------------------------------------
+// Larger body text, blue Merriweather page titles and section headings, and no
+// rules under them (the print-derived rules stay on single documents).
+
+// Spacing measured from innovation.ca.gov: 1.75 line height, ~1.5rem under
+// section headings, and room around tables, figures, and callouts.
+#{$site} {
+  main.content {
+    font-size: 1.2rem;
+    line-height: 1.75;
+
+    // List items get less space between them now that lines are taller.
+    ul:not(.breadcrumb):not(.list-unstyled),
+    ol:not(.breadcrumb) {
+      > li + li {
+        margin-top: 0.5rem;
+      }
+    }
+
+    // Callouts get their spacing in custom.scss, on every HTML page.
+    table,
+    figure,
+    .odi-cards {
+      margin-top: 1.75rem;
+      margin-bottom: 1.75rem;
+    }
+
+    table {
+      line-height: 1.5;
+    }
+  }
+
+  #title-block-header {
+    border-bottom: 0;
+    padding-bottom: 0.5rem;
+
+    .title {
+      font-size: 2.75rem;
+      line-height: 1.2;
+      color: var(--brand-blue);
+    }
+
+    .subtitle {
+      font-size: 1.4rem;
+      color: var(--brand-black);
+    }
+  }
+
+  main.content h2,
+  main.content .h2 {
+    font-family: $headings-font-family;
+    font-size: 1.75rem;
+    line-height: 1.3;
+    color: var(--brand-blue);
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin-top: 3rem;
+    margin-bottom: 1.25rem;
+  }
+
+  main.content {
+    h3, .h3 {
+      font-size: 1.3rem;
+      line-height: 1.4;
+      margin-top: 2.25rem;
+      margin-bottom: 0.75rem;
+    }
+
+    h4, .h4 {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+// --- Sidebar and "On this page" ------------------------------------------------------------
+// Link lists with thin rules between items, as on innovation.ca.gov.
+
+#quarto-sidebar {
+  background: transparent;
+
+  .sidebar-title {
+    font-family: $headings-font-family;
+    color: var(--brand-navy);
+  }
+
+  .sidebar-item a,
+  .sidebar-item-text {
+    min-height: 24px;               // 2.5.8
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .sidebar-link {
+    color: var(--brand-blue);
+
+    &.active {
+      font-weight: 700;
+      box-shadow: inset 3px 0 0 var(--brand-blue);
+      padding-left: 0.6rem;
+    }
+  }
+}
+
+#quarto-margin-sidebar,
+#TOC {
+  h2,
+  .toc-title {
+    font-family: $font-family-base;
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: var(--brand-black);
+    margin-bottom: 0.5rem;
+  }
+
+  ul {
+    border-left: 0 !important;
+  }
+}
+
+#TOC .nav-link,
+#quarto-margin-sidebar .nav-link {
+  min-height: 24px;
+  display: flex;
+  align-items: center;
+  gap: 0.35em;                      // keeps the space after section numbers
+  color: var(--brand-blue);
+  border-left: 0 !important;
+  border-bottom: 1px solid var(--brand-rule-gray);
+  padding: 0.5rem 0 !important;
+
+  &.active {
+    color: var(--brand-navy);
+    font-weight: 700;
+  }
+}
+
+// --- Footer ----------------------------------------------------------------------------------
+// Row 1 is the site's `page-footer`; row 2 is the legal-links strip
+// (filters/website.lua).
+
+.footer {
+  background: var(--brand-white);
+}
+
+.nav-footer {
+  border-top: 1px solid var(--brand-rule-gray);
+  background-color: var(--brand-white);
+  color: var(--brand-black);
+  font-size: 1rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+
+  a {
+    color: var(--brand-blue);
+    min-height: 24px;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: underline;
+    text-underline-offset: 0.15em;
+  }
+
+  p {
+    margin: 0;
+  }
+}
+
+// Added to every HTML page (filters/website.lua); shown only on site pages.
+body:not(.nav-fixed):not(.nav-sidebar) .odi-legal-footer {
+  display: none !important;
+}
+
+.odi-legal-footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem 2rem;
+  padding: 1rem 1.5rem;
+  border-top: 1px solid var(--brand-rule-gray);
+  background: var(--brand-off-white);
+  color: var(--brand-black);
+  font-size: 0.875rem;
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem 1.5rem;
+    margin: 0;
+  }
+
+  a {
+    color: var(--brand-black);
+    min-height: 24px;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: underline;
+    text-underline-offset: 0.15em;
+  }
+
+  p {
+    margin: 0;
+  }
+}
+
+// --- Page navigation (previous / next) ----------------------------------------------
+
+.page-navigation {
+  border-top: 1px solid var(--brand-rule-gray);
+
+  a {
+    color: var(--brand-blue);
+  }
+}
+
+// --- Banner: `title-block-banner: true` ---------------------------------------------
+// Transparent over the page's orange-tint gradient, with the California dot
+// map on the right, as on the title slide. The map arrives as --odi-dot-map
+// (filters/website.lua).
+
+.quarto-title-banner {
+  background: var(--odi-dot-map, none) no-repeat right 8% center / auto 85%;
+  color: var(--brand-blue);
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
+
+  .quarto-title .title {
+    font-family: $headings-font-family;
+    font-weight: 700;
+    color: var(--brand-blue);
+    border: 0;
+  }
+
+  .quarto-title .subtitle,
+  .description {
+    color: var(--brand-black);
+    font-weight: 400;
+  }
+}
+
+#{$site} .quarto-title-banner + #title-block-header,
+#{$site} header#title-block-header.quarto-title-block {
+  border-bottom: 0;
+}
+
+// --- Listings (blog / data stories) ------------------------------------------------
+
+.quarto-listing {
+  .quarto-post {
+    border-bottom: 1px solid var(--brand-rule-gray);
+    padding-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .listing-title,
+  .card-title {
+    font-family: $headings-font-family;
+    color: var(--brand-blue);
+  }
+
+  // The whole entry is a link; underline the title on hover and focus.
+  a:hover .listing-title,
+  a:focus-visible .listing-title {
+    text-decoration: underline;
+  }
+
+  .listing-date,
+  .listing-author,
+  .card-subtitle {
+    color: var(--brand-charcoal);
+  }
+
+  .listing-categories .listing-category,
+  .quarto-category {
+    border-color: var(--brand-blue);
+    color: var(--brand-blue);
+    min-height: 24px;
+  }
+}
+
+.quarto-listing-category .category,
+.quarto-listing-category-title {
+  color: var(--brand-blue);
+}
+
+// Cards on the home page: `::: {.odi-cards}` around `::: {.odi-card}` blocks
+// (each: `### [Title](link)` + text).
+.odi-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+main.content .odi-card {
+  background: var(--brand-blue-tint);
+  border-top: 4px solid var(--brand-blue);
+  padding: 1rem 1.25rem;
+
+  h3 {
+    margin-top: 0;
+    font-family: $headings-font-family;
+    font-size: 1.3rem;
+    font-weight: 700;
+
+    a {
+      color: var(--brand-blue);
+      text-underline-offset: 0.15em;
+    }
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}

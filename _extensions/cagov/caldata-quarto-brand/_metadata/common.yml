@@ -1,0 +1,15 @@
+# Metadata shared by every template, pulled in with `metadata-files:` in each
+# template's _quarto.yml. Execute options (code hidden, no warnings or
+# messages), callout styling, and filters come from the extension's formats
+# (_extension.yml), so they aren't repeated here.
+
+lang: en-US
+
+# Sentence case for Quarto's built-in labels (ODI style guide).
+language:
+  related-formats-title: Other formats
+
+# Captions above figures and tables, as in the ODI report template.
+fig-cap-location: top
+tbl-cap-location: top
+fig-align: center

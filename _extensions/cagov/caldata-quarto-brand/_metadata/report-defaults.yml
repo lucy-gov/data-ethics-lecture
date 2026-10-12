@@ -1,0 +1,14 @@
+# Defaults for the report template: cover page and table of contents in PDF,
+# a sidebar table of contents in HTML. Use after common.yml.
+
+layout: report
+date: today
+toc: true
+toc-title: Table of contents
+
+format:
+  caldata-quarto-brand-html:
+    toc-location: left
+  caldata-quarto-brand-typst:
+    # PDF only: in HTML, toc-depth 2 leaves the table of contents empty (Quarto 1.10).
+    toc-depth: 2

@@ -1,0 +1,12 @@
+# Defaults for the slides template. Slide size, numbering, and layout come
+# from the extension's revealjs format; these are content defaults.
+# Use after common.yml.
+
+date: today
+slide-level: 2
+incremental: false
+preview-links: auto
+
+# Figures sized for a 16:9 slide.
+fig-width: 10
+fig-height: 5

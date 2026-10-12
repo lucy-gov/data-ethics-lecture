@@ -1,0 +1,203 @@
+// Spacing and type scale measured from the ODI one-pager and report templates
+// (US Letter, 0.75in margins, 12pt body). At a 16px root, 1rem = 12pt.
+// Colors and font families come from _brand.yml; don't hardcode them here.
+// Colors use the --brand-* CSS variables so the theme still compiles if the
+// brand isn't loaded (e.g. rendering outside a Quarto project).
+
+/*-- scss:defaults --*/
+
+$line-height-base: 1.47;       // Google Docs 1.25 line spacing with Public Sans metrics
+$paragraph-margin-bottom: 1rem; // 12pt after paragraphs
+$grid-body-width: 672px;       // 7in text column
+
+/*-- scss:rules --*/
+
+@import "shared";  // focus, callouts, status badges, watermark
+@import "website"; // navbar, sidebar, footer, listings, banner (sites and books)
+
+// --- Accessibility (WCAG 2.2 AA; see site/style-guide.qmd) ------------------------
+
+// Skip link (2.4.1), added to every page by _extension.yml. Hidden until focused.
+.odi-skip-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3000;
+  padding: 0.5rem 1rem;
+  background: var(--brand-navy);
+  color: var(--brand-white);
+  font-weight: 700;
+  transform: translateY(-120%);
+
+  &:focus {
+    transform: none;
+    color: var(--brand-white);
+    outline-color: var(--brand-orange) !important;
+  }
+}
+
+// Links in running text are underlined, not identified by color alone (1.4.1):
+// blue is only 2.4:1 against black body text.
+main.content {
+  p, li, td, th, dd, figcaption, caption, .csl-entry {
+    a:not(.nav-link):not(.btn) {
+      text-decoration: underline;
+      text-underline-offset: 0.15em;
+    }
+  }
+
+  // Listings are blocks of links (title, date, description), not running text.
+  .quarto-listing a {
+    text-decoration: none !important;
+  }
+}
+
+// Focused elements aren't hidden under the fixed navbar (2.4.11).
+html {
+  scroll-padding-top: 5rem;
+}
+
+// Merriweather is the brand headings font ($headings-font-family); section
+// headings below H1 switch back to the base font (Public Sans).
+main.content {
+  h2, h3, h4, h5, h6,
+  .h2, .h3, .h4, .h5, .h6 {
+    font-family: $font-family-base;
+  }
+}
+
+// Title block: Merriweather Bold 22pt, navy, with a 2pt navy rule beneath.
+#title-block-header {
+  border-bottom: 2pt solid var(--brand-navy);
+  padding-bottom: 1.875rem;
+  margin-bottom: 1.2rem;
+
+  .title {
+    font-family: $headings-font-family;
+    font-size: 1.833rem;
+    font-weight: 700;
+    line-height: 1.257;
+    color: var(--brand-navy);
+  }
+
+  // Subheading: Public Sans Light, blue. Overrides the .lead class Quarto adds.
+  .subtitle {
+    font-family: inherit;
+    font-size: 1.167rem;
+    font-weight: 300;
+    color: var(--brand-blue);
+  }
+}
+
+// Section headings: Public Sans Bold 16pt with a 2pt light-gray rule.
+main.content h2,
+main.content .h2 {
+  font-size: 1.333rem;
+  line-height: 1.2;
+  margin-top: 1.625rem;
+  margin-bottom: 0.33rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2pt solid var(--brand-rule-gray);
+}
+
+// Subsection headings: Public Sans Bold 12pt (H3), bold italic (H4), as in
+// the Typst layouts.
+main.content {
+  h3, .h3,
+  h4, .h4 {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.47;
+    margin-top: 1.333rem;
+    margin-bottom: 0.5rem;
+  }
+
+  h4, .h4 {
+    font-style: italic;
+  }
+}
+
+// Callout text scales with the surrounding text (Quarto sizes it in rem, which
+// looks small on website pages' larger body text); data notes a step smaller.
+// Extra room below so the box doesn't crowd the next heading.
+div.callout {
+  margin-top: 1.75rem;
+  margin-bottom: 2.25rem;
+
+  .callout-header,
+  .callout-body-container {
+    font-size: 0.9em !important;
+  }
+
+  // Overrides _shared.scss's slide sizing (same selectors, later in the file).
+  &.callout-data-note {
+    .callout-header,
+    .callout-body-container,
+    .callout-body {
+      font-size: 0.8em !important;
+    }
+  }
+}
+
+// Tables: blue header row, blue-tint cells separated by white gaps (as on slides).
+// A mixin so dashboard cards (html/_dashboard.scss) get the same tables.
+@mixin odi-table {
+  border-collapse: separate;
+  border-spacing: 3px;
+  border: 0;
+  font-size: 0.917rem;           // 11pt
+
+  // Left-aligned unless Pandoc sets an inline alignment.
+  > :not(caption) > * > * {
+    border: 0;
+    box-shadow: none;
+    padding: 0.4rem 0.7rem;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  th,
+  thead td {
+    background-color: var(--brand-blue);
+    color: var(--brand-white);
+    font-weight: 700;
+  }
+
+  td {
+    background-color: var(--brand-blue-tint);
+  }
+
+  thead,
+  tbody,
+  thead th {
+    border: 0;
+  }
+}
+
+main.content table {
+  @include odi-table;
+}
+
+// Lead paragraph: Merriweather Regular 14pt. Use with `::: {.lead}`.
+main.content .lead {
+  font-family: $headings-font-family;
+  font-size: 1.167rem;
+  font-weight: 400;
+  line-height: 1.45;
+  margin-bottom: 2.25rem;  // same room as below callouts
+}
+
+// Lists: bullet at 0.25in, text at 0.5in, 12pt between items.
+// (Not breadcrumbs or listings, which are lists too.)
+main.content {
+  ul:not(.breadcrumb):not(.list-unstyled),
+  ol:not(.breadcrumb) {
+    padding-left: 3rem;
+
+    > li + li {
+      margin-top: 1rem;
+    }
+  }
+}
+
+@import "dashboard"; // header, cards, value boxes (dashboards only)

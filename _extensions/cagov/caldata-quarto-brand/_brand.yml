@@ -1,0 +1,165 @@
+# Brand identity for the California Office of Data and Innovation (ODI) / CalData.
+# Spec: https://posit-dev.github.io/brand-yml/
+# Source: ODI slide color scheme and fonts guide, ODI report and one-pager templates.
+# Contrast ratios noted are against white (#FFFFFF).
+
+meta:
+  name:
+    full: California Office of Data and Innovation
+    short: ODI
+  link:
+    home: https://innovation.ca.gov
+    github: https://github.com/cagov
+    twitter: https://twitter.com/CaliforniaODI
+    # Legal links in the website/book footer strip (filters/website.lua).
+    conditions-of-use: https://innovation.ca.gov/conditions-of-use/
+    privacy-policy: https://innovation.ca.gov/privacy-policy/
+    accessibility: https://innovation.ca.gov/accessibility/
+  copyright: State of California
+
+color:
+  palette:
+    # Primary and accent
+    navy: "#00315F"          # 13.1:1
+    blue: "#0D4F8C"          # 8.4:1
+    red: "#C24629"           # 5.0:1 -- only 4.3:1 on red-tint/orange-tint; use dark-red for small text there
+    dark-red: "#A03A22"      # 6.7:1; 5.8:1 on red-tint and orange-tint (brand red, darkened for WCAG AA)
+    orange: "#E3881B"        # 2.7:1 -- fill only; put navy text on it (4.9:1), never use as text on white
+    caldata-gold: "#A35F0E"  # 5.0:1 -- "Data" in the CalData wordmark
+    # Background tints (slides, tables, highlights)
+    blue-tint: "#ECF1F6"
+    orange-tint: "#FAECDA"
+    red-tint: "#FDEAE5"
+    purple-tint: "#EFECF8"
+    # Additional colors and neutrals
+    purple: "#7560C1"        # 5.0:1
+    dark-purple: "#523D9D"   # 8.4:1
+    charcoal: "#3B3A48"      # 11.1:1
+    off-white: "#FAFAFA"
+    rule-gray: "#D9D9D9"     # decorative only -- section-heading underlines
+    peach: "#F6DBBB"         # decorative only -- California dot-map artwork
+    # Chart colors (see the docs site's style guide, site/style-guide.qmd). Brand blue is too dark to separate from
+    # navy/black in charts, and the brand had no cool second hue for colorblind
+    # separation, so charts add a lighter blue and a teal.
+    chart-blue: "#1F6CB0"    # 5.5:1
+    chart-teal: "#11957C"    # 3.7:1 -- chart marks and large text only
+    chart-blue-light: "#86A9CC"   # 2.5:1 -- sequential ramp step, fill only
+    chart-blue-medium: "#4F86BE"  # 3.8:1 -- sequential ramp step
+    black: "#000000"
+    white: "#FFFFFF"
+  foreground: black
+  background: white
+  primary: blue
+  secondary: charcoal
+  tertiary: blue-tint
+  info: blue
+  warning: orange
+  danger: red
+  light: off-white
+  dark: navy
+
+typography:
+  fonts:
+    - family: Public Sans
+      source: file
+      files:
+        - path: fonts/public-sans/PublicSans-Light.ttf
+          weight: 300
+          style: normal
+        - path: fonts/public-sans/PublicSans-LightItalic.ttf
+          weight: 300
+          style: italic
+        - path: fonts/public-sans/PublicSans-Regular.ttf
+          weight: 400
+          style: normal
+        - path: fonts/public-sans/PublicSans-Italic.ttf
+          weight: 400
+          style: italic
+        - path: fonts/public-sans/PublicSans-Bold.ttf
+          weight: 700
+          style: normal
+        - path: fonts/public-sans/PublicSans-BoldItalic.ttf
+          weight: 700
+          style: italic
+    - family: Merriweather
+      source: file
+      files:
+        - path: fonts/merriweather/Merriweather-Regular.ttf
+          weight: 400
+          style: normal
+        - path: fonts/merriweather/Merriweather-Italic.ttf
+          weight: 400
+          style: italic
+        - path: fonts/merriweather/Merriweather-Bold.ttf
+          weight: 700
+          style: normal
+        - path: fonts/merriweather/Merriweather-BoldItalic.ttf
+          weight: 700
+          style: italic
+  base:
+    family: Public Sans
+    weight: 400
+  # Merriweather is the ODI display face: titles, H1, slide titles, lead paragraphs.
+  # Lower-level headings use Public Sans Bold; each format's theme switches them
+  # back to the base family.
+  headings:
+    family: Merriweather
+    weight: 700
+  link:
+    color: primary
+
+logo:
+  images:
+    odi-full:
+      path: logos/odi-full.svg
+      alt: Office of Data and Innovation
+    odi-full-dark:
+      path: logos/odi-full-dark.svg
+      alt: Office of Data and Innovation
+    odi-stacked:
+      path: logos/odi-stacked.svg
+      alt: Office of Data and Innovation
+    odi-stacked-dark:
+      path: logos/odi-stacked-dark.svg
+      alt: Office of Data and Innovation
+    caldata-full:
+      path: logos/caldata-full.svg
+      alt: CalData, Office of Data and Innovation
+    caldata-full-dark:
+      path: logos/caldata-full-dark.svg
+      alt: CalData, Office of Data and Innovation
+    caldata-stacked:
+      path: logos/caldata-stacked.svg
+      alt: CalData, Office of Data and Innovation
+    caldata-stacked-dark:
+      path: logos/caldata-stacked-dark.svg
+      alt: CalData, Office of Data and Innovation
+    mark:
+      path: logos/mark.svg
+      alt: Office of Data and Innovation logo
+    mark-dark:
+      path: logos/mark-dark.svg
+      alt: Office of Data and Innovation logo
+  # ODI is the default identity; documents opt into CalData with e.g. `logo: caldata-full`.
+  # Defaults are light-only on purpose: light/dark pairs here make Quarto add an
+  # unbranded dark-mode toggle to HTML. Use the *-dark images by name on dark backgrounds.
+  small: mark
+  medium: odi-full
+  large: odi-stacked
+
+# Chart color roles, by palette name. tools/build-assets.py turns these into the
+# matplotlib style and Plotly template in charts/. Validated with a colorblind
+# (protan/deutan) and normal-vision separation check; see site/style-guide.qmd.
+defaults:
+  caldata-charts:
+    # Categorical, in fixed order; never cycle. Adjacent pairs pass for lines,
+    # bars, and stacks. Scatter plots and maps: first 3 only.
+    series: [chart-blue, orange, chart-teal, caldata-gold, purple, red]
+    # Magnitude, light to dark. For ordered categories, start at chart-blue-light.
+    sequential: [chart-blue-light, chart-blue-medium, chart-blue, blue, navy]
+    # Polarity around a baseline: two arms and a neutral midpoint.
+    diverging: [blue, rule-gray, dark-red]
+    text: charcoal
+    grid: rule-gray
+    axis: charcoal
+    background: white

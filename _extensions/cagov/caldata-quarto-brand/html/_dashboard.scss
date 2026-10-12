@@ -1,0 +1,159 @@
+// Dashboards (`format: caldata-quarto-brand-dashboard`): a slim version of the
+// website header (orange tint, mark, title, page tabs), white cards on an
+// off-white page, and brand tables and value boxes. Imported by
+// html/custom.scss; everything is scoped to body.quarto-dashboard, which only
+// dashboards have. Colors come from _brand.yml via --brand-* variables.
+
+body.quarto-dashboard {
+  background-color: var(--brand-off-white);
+
+  // --- Header ---------------------------------------------------------------
+
+  #quarto-dashboard-header .navbar {
+    background-color: var(--brand-orange-tint) !important;
+    border-bottom: 1px solid var(--brand-blue);
+    padding: 0.25rem 1rem;
+
+    // One row: undo the website header's two-row layout (html/_website.scss).
+    .navbar-container {
+      flex-wrap: nowrap;
+      padding: 0 !important;
+    }
+
+    .navbar-collapse {
+      order: 0;
+      flex-basis: auto;
+      margin: 0 0 0 2rem;
+      padding: 0;
+      border: 0;
+    }
+
+    .navbar-brand-container,
+    .navbar-title,
+    .navbar-title-text {
+      color: var(--brand-black) !important;
+    }
+
+    .navbar-logo {
+      max-height: 36px;
+    }
+
+    .navbar-title {
+      font-family: $headings-font-family;
+      font-weight: 700;
+      font-size: 1.3rem;
+
+      // The website header's organization label (filters/website.lua); the
+      // slim header shows the mark instead.
+      &::before {
+        content: none !important;
+      }
+    }
+
+    // Page tabs: blue, 44px targets, current page underlined (no filled
+    // background, which put blue text on blue).
+    .nav-link {
+      color: var(--brand-blue) !important;
+      background-color: transparent !important;
+      margin-right: 1.5rem;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+      min-height: 44px;
+      display: flex;
+      align-items: center;
+      border-bottom: 3px solid transparent;
+
+      &:hover,
+      &.active {
+        border-bottom-color: var(--brand-blue);
+      }
+
+      &.active {
+        font-weight: 700;
+      }
+    }
+
+    .navbar-toggler {
+      color: var(--brand-blue) !important;
+      border-color: var(--brand-blue);
+    }
+
+    // Quarto marks the dashboard navbar dark, so Bootstrap draws a white menu
+    // icon; darken it for the light header.
+    .navbar-toggler-icon {
+      filter: invert(1);
+    }
+
+    // Dashboard tools (source code, fullscreen) and their icons.
+    .quarto-navigation-tool,
+    .bi {
+      color: var(--brand-blue) !important;
+    }
+  }
+
+  // --- Cards ------------------------------------------------------------------
+
+  .card {
+    border: 1px solid var(--brand-rule-gray);
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .card-header {
+    background-color: var(--brand-white);
+    border-bottom: 1px solid var(--brand-rule-gray);
+    color: var(--brand-navy);
+    font-weight: 700;
+    font-size: 1rem;
+  }
+
+  .card-footer {
+    background-color: var(--brand-white);
+    color: var(--brand-charcoal);
+    font-size: 0.875rem;
+  }
+
+  // Tabbed cards.
+  .card .nav-tabs .nav-link {
+    color: var(--brand-blue);
+
+    &.active {
+      color: var(--brand-navy);
+      font-weight: 700;
+    }
+  }
+
+  .card table {
+    @include odi-table;
+    width: 100%;
+  }
+
+  // --- Value boxes ------------------------------------------------------------
+  // Colors come from each box's `color:` (primary, secondary, dark, or info all
+  // pass 4.5:1 with white text). Titles in the body font; values in the
+  // display font.
+
+  .bslib-value-box {
+    border: 0;
+    border-radius: 0;
+
+    .value-box-title {
+      font-family: $font-family-base;
+      font-weight: 700;
+      font-size: 1rem;
+    }
+
+    .value-box-value {
+      font-family: $headings-font-family;
+      font-weight: 700;
+    }
+  }
+
+  // --- Sidebars and toolbars ----------------------------------------------------
+
+  .sidebar,
+  .toolbar {
+    background-color: var(--brand-white);
+    border-color: var(--brand-rule-gray);
+  }
+}

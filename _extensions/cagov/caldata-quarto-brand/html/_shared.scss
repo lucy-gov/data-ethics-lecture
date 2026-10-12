@@ -1,0 +1,126 @@
+// Rules shared by the HTML and RevealJS themes: callouts, status badges, and
+// the watermark. Imported in the scss:rules section of html/custom.scss and
+// revealjs/theme.scss. Colors come from _brand.yml via --brand-* variables;
+// per-callout and per-badge colors are set inline by filters/callouts.lua and
+// shortcodes/status-badge.lua.
+
+// Keyboard focus (WCAG 2.2 AA 2.4.7): a solid ring with at least 3:1 contrast
+// on white and on the tints. Dark backgrounds switch it to white.
+:focus-visible {
+  outline: 3px solid var(--brand-blue) !important;
+  outline-offset: 2px;
+  box-shadow: none !important;
+}
+
+// Code blocks: a solid background, so highlighting keeps its contrast on
+// tinted pages (Bootstrap's is semi-transparent).
+div.sourceCode,
+pre.sourceCode {
+  background-color: var(--brand-off-white);
+  border-color: var(--brand-rule-gray);
+}
+
+// Callouts: tinted box with a colored bar on the left, no icon. The colors
+// arrive as --odi-callout-* variables (inherited from a wrapper div in
+// RevealJS). `!important` overrides Quarto's per-type callout colors, whose
+// selectors are more specific.
+div.callout {
+  border: none !important;
+  border-left: 4px solid var(--odi-callout-accent, var(--brand-charcoal)) !important;
+  border-radius: 0 !important;
+  background-color: var(--odi-callout-tint, var(--brand-off-white)) !important;
+  box-shadow: none;
+
+  // .callout-header in HTML, .callout-title in RevealJS.
+  .callout-header,
+  .callout-title {
+    background-color: transparent !important;
+    opacity: 1 !important;
+    font-weight: 700;
+    border: none;
+
+    &,
+    p,
+    strong {
+      color: var(--odi-callout-title, var(--brand-charcoal)) !important;
+    }
+  }
+
+  .callout-body-container,
+  .callout-body {
+    background-color: transparent !important;
+  }
+
+  // Data notes: Quarto sizes callout text in rem, so scale the parts directly
+  // (in RevealJS the title sits inside .callout-body).
+  &.callout-data-note {
+    .callout-header,
+    .callout-body {
+      font-size: 0.85em !important;
+    }
+  }
+}
+
+// Status badge: {{< status-badge draft >}}.
+.odi-badge {
+  display: inline-block;
+  padding: 0.15em 0.6em;
+  border-radius: 1em;
+  background-color: var(--odi-badge-fill);
+  color: var(--odi-badge-text);
+  font-size: 0.72em;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  line-height: 1.3;
+  text-transform: uppercase;
+  vertical-align: 0.12em;
+  white-space: nowrap;
+}
+
+// Watermark: `watermark: draft` (filters/watermark.lua).
+//
+// The label is always shown as a stamp with full contrast (read by screen
+// readers too). In HTML documents, large faint diagonal text sits behind it
+// as decoration only: drawn from data-label by CSS, so it isn't page text,
+// and sized by label length (--odi-watermark-chars).
+.odi-watermark::before {
+  content: attr(data-label);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 2000;
+  transform: translate(-50%, -50%) rotate(-35deg);
+  color: var(--brand-red);
+  opacity: 0.12;
+  font-size: min(calc(110vmin / var(--odi-watermark-chars, 6)), 12rem);
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+  pointer-events: none;
+  user-select: none;
+}
+
+// Stamp: bottom right of HTML pages, top right of every slide.
+.odi-watermark-stamp {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  z-index: 2001;
+  padding: 2px 10px;
+  border: 2px solid var(--brand-red);
+  color: var(--brand-red);
+  background: var(--brand-white);
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  pointer-events: none;
+}
+
+.odi-watermark-stamp.slides {
+  bottom: auto;
+  top: 14px;
+  right: 18px;
+  z-index: 40;
+  font-family: var(--r-main-font);
+  font-size: 14px;
+}

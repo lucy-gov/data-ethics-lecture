@@ -1,0 +1,121 @@
+title: ODI Quarto brand
+author: California Office of Data and Innovation
+version: 0.10.2
+quarto-required: ">=1.8.0"
+contributes:
+  # Brand must be contributed as project metadata; `brand:` under `formats:` is
+  # ignored. Only takes effect inside a Quarto project (a dir with _quarto.yml).
+  metadata:
+    project:
+      brand: _brand.yml
+  # Defaults shared by every format (execute options, callouts, filters) are
+  # repeated under each format below; per-template defaults live in _metadata/.
+  formats:
+    html:
+      theme: [html/custom.scss]
+      execute: &execute
+        echo: false
+        warning: false
+        message: false
+      callout-icon: false
+      # Syntax highlighting designed for WCAG AA contrast (Quarto's default fails).
+      highlight-style: a11y-light
+      # Skip link for keyboard and screen reader users (WCAG 2.4.1). Quarto puts
+      # before-body content inside <main>, after the navbar, so the script moves
+      # the link to the start of <body>, where it's the first thing Tab reaches.
+      include-before-body:
+        - text: '<a class="odi-skip-link" href="#quarto-document-content">Skip to main content</a>'
+      include-in-header:
+        - text: |
+            <script>
+            document.addEventListener("DOMContentLoaded", () => {
+              const link = document.querySelector(".odi-skip-link");
+              const main = document.getElementById("quarto-document-content");
+              if (link) document.body.prepend(link);
+              if (main && !main.hasAttribute("tabindex")) main.setAttribute("tabindex", "-1");
+              // Code blocks too wide for the page scroll sideways; make those
+              // focusable so keyboard users can scroll them (WCAG 2.1.1).
+              const focusable = () => document.querySelectorAll("pre").forEach(pre => {
+                if (pre.scrollWidth > pre.clientWidth) pre.setAttribute("tabindex", "0");
+                else if (pre.getAttribute("tabindex") === "0") pre.removeAttribute("tabindex");
+              });
+              focusable();
+              window.addEventListener("resize", focusable);
+            });
+            </script>
+      filters: &filters
+        # Before Quarto parses callouts, so it sees the custom types.
+        - path: filters/callouts.lua
+          at: pre-ast
+        - filters/watermark.lua
+        - filters/website.lua
+    # Quarto dashboards (static HTML). Same theme as html; html/_dashboard.scss
+    # styles the header, cards, value boxes, and tables.
+    dashboard:
+      theme: [html/custom.scss]
+      execute: *execute
+      callout-icon: false
+      highlight-style: a11y-light
+      # Skip link (WCAG 2.4.1). Dashboards have no main-content id, so the
+      # script gives the content area one, points the link at it, and moves
+      # the link to the start of <body>. (Dashboards need scripts to lay out
+      # at all, so the link starts as "#".)
+      include-before-body:
+        - text: '<a class="odi-skip-link" href="#">Skip to main content</a>'
+      include-in-header:
+        - text: |
+            <script>
+            document.addEventListener("DOMContentLoaded", () => {
+              const link = document.querySelector(".odi-skip-link");
+              const main = document.querySelector(".quarto-dashboard-content");
+              if (link) document.body.prepend(link);
+              if (main) {
+                main.id ||= "dashboard-content";
+                main.setAttribute("tabindex", "-1");
+                link?.setAttribute("href", "#" + main.id);
+              }
+              // The brand has no dark mode, so Quarto's hidden dark-mode logo
+              // link is an unlabeled tab stop (WCAG 2.4.4); remove it.
+              document.querySelectorAll(".navbar-brand-container a:has(> img.dark-content)")
+                .forEach(a => a.remove());
+            });
+            </script>
+      filters: *filters
+    revealjs:
+      theme: [revealjs/theme.scss]
+      highlight-style: a11y-light
+      template-partials: [revealjs/title-slide.html]
+      execute: *execute
+      callout-icon: false
+      filters:
+        - path: filters/callouts.lua
+          at: pre-ast
+        - filters/watermark.lua
+        # After Quarto's filters so it also sees slides added by shortcodes (boilerplate).
+        - path: filters/slides.lua
+          at: post-quarto
+      # 16:9 at the size the theme's measurements are scaled to.
+      width: 1280
+      height: 720
+      margin: 0
+      center: false
+      slide-number: c
+      progress: false
+      date-format: long
+    # PDF via Typst. Choose a layout with `layout:` (report, one-pager, flyer, paper).
+    typst:
+      template-partials: [typst/typst-template.typ, typst/typst-show.typ]
+      execute: *execute
+      callout-icon: false
+      filters:
+        - path: filters/callouts.lua
+          at: pre-ast
+        - filters/watermark.lua
+        - filters/typst.lua
+      papersize: us-letter
+      date-format: long
+  # For documents using stock formats: `filters: [caldata-quarto-brand]`.
+  filters: *filters
+  shortcodes:
+    - shortcodes/status-badge.lua
+    - shortcodes/boilerplate.lua

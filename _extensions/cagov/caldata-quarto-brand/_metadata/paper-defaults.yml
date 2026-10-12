@@ -1,0 +1,15 @@
+# Defaults for the paper and internal-doc templates: title block in the flow,
+# numbered sections, linked citations. Use after common.yml.
+
+layout: paper
+date: today
+number-sections: true
+link-citations: true
+
+format:
+  caldata-quarto-brand-html:
+    toc: true
+    # Footnotes and citations go in the right margin, so the table of contents
+    # goes on the left; on the right, its sticky box covers margin notes.
+    toc-location: left
+    reference-location: margin

@@ -1,0 +1,20 @@
+# Defaults for the website template, styled after innovation.ca.gov: a light
+# header (organization name above the site title, search box) with the
+# navigation row beneath it, and a legal-links strip under the footer
+# (filters/website.lua). Use after common.yml.
+
+website:
+  navbar:
+    # Bootstrap's `light` theme color (brand off-white), so Bootstrap derives
+    # dark icon colors; html/_website.scss paints the header orange-tint.
+    background: light
+  search:
+    type: textbox
+  page-navigation: true
+  back-to-top-navigation: true
+  reader-mode: false
+
+format:
+  caldata-quarto-brand-html:
+    toc: true
+    toc-title: On this page

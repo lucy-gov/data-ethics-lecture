@@ -1,0 +1,10 @@
+# Defaults for the dashboard template. Use after common.yml. Keep options
+# users need to change out of here: metadata-files win over keys in
+# _quarto.yml, so set per-dashboard options in the document's front matter.
+
+format:
+  caldata-quarto-brand-dashboard:
+    # Cards keep their natural height and the page scrolls, so nothing is cut
+    # off at high zoom or on small screens (WCAG 1.4.10). Set
+    # `scrolling: false` in front matter to fit everything on one screen.
+    scrolling: true

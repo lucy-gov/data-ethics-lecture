@@ -1,0 +1,20 @@
+# Defaults for the book template (a report as a website): chapter sidebar in
+# HTML; the report layout (cover, table of contents, a new page per chapter)
+# in PDF. Use after common.yml.
+
+layout: report
+toc: true
+toc-title: Table of contents
+
+book:
+  sidebar:
+    style: docked
+  page-navigation: true
+
+format:
+  caldata-quarto-brand-typst:
+    # PDF only: the cover shows the date; chapter web pages don't need one.
+    date: today
+    chapter-breaks: true
+    # PDF only: in HTML, toc-depth 2 leaves the table of contents empty (Quarto 1.10).
+    toc-depth: 2
