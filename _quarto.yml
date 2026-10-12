@@ -1,0 +1,13 @@
+project:
+  type: default
+  output-dir: _site
+  render:
+    - slides/index.qmd
+
+# Declared explicitly: the extension contributes the brand as project metadata,
+# which `quarto render` applies but `quarto preview <file>` does not.
+brand: _extensions/cagov/caldata-quarto-brand/_brand.yml
+
+metadata-files:
+  - _extensions/cagov/caldata-quarto-brand/_metadata/common.yml
+  - _extensions/cagov/caldata-quarto-brand/_metadata/slides-defaults.yml

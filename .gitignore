@@ -218,3 +218,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Quarto
+.quarto/
+**/*.quarto_ipynb
+
+# Instructor solutions: keep out of the repo until after the lecture
+instructor/solutions.ipynb
+
+/.quarto/
+
+# Rendered output (built by GitHub Actions; see .github/workflows/publish-slides.yml)
+_site/
+slides/index.html
+slides/index_files/
