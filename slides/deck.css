@@ -1,0 +1,434 @@
+/* Slide citations: small footnotes above the footer bar. */
+.reveal .slides section.slide aside:has(.aside-footnotes) {
+  position: absolute;
+  bottom: 62px;
+  left: 50px;
+  right: 50px;
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.35;
+  color: var(--brand-charcoal);
+  border-top: 1px solid var(--brand-rule-gray);
+  padding-top: 6px;
+}
+.reveal .aside-footnotes { margin: 0; padding-left: 18px; }
+.reveal .aside-footnotes li + li { margin-top: 0; }
+.reveal .aside-footnotes p { margin: 0; }
+
+/* Big-number stats: `::: {.highlights .plain .stats}` with the number as `### 42`. */
+.reveal .highlights.stats {
+  margin-top: 10px;
+  margin-bottom: 24px;
+}
+.reveal .highlights.stats .highlight h3 {
+  font-family: var(--r-heading-font);
+  font-size: 56px;
+  line-height: 1.1;
+  color: var(--brand-blue);
+  margin-bottom: 8px;
+}
+.reveal .highlights.stats .highlight p {
+  font-size: 20px;
+}
+
+/* Mentimeter join instructions. */
+.reveal .poll-code {
+  margin-top: 36px;
+  padding: 14px 20px;
+  background: var(--brand-blue-tint);
+  border-left: 4px solid var(--brand-blue);
+  color: var(--brand-navy);
+}
+
+/* Scenario box: every paragraph full size (the theme styles the last one as a source line). */
+.reveal .quote-box.scenario p,
+.reveal .quote-box.scenario p:last-child:not(:first-child) {
+  font-size: inherit;
+  opacity: 1;
+}
+.reveal .quote-box.scenario p + p {
+  font-weight: 400;
+}
+
+/* Links on red backgrounds (quote slides, quote boxes). */
+.reveal .slides section.slide.quote a,
+.reveal .quote-box a {
+  color: inherit;
+}
+
+/* `.highlights .light .two-col`: a 2 x 2 grid with larger text. */
+.reveal .highlights.light.two-col {
+  grid-template-columns: repeat(2, 1fr);
+  font-size: 18px;
+}
+.reveal .highlights.light.two-col .highlight h3 {
+  font-size: 18px;
+}
+
+/* References: a scroll box that stays above the footer. */
+.reveal .slides section.references-slide #refs {
+  max-height: 480px;
+  overflow-y: auto;
+  font-size: 14px;
+  line-height: 1.4;
+  padding-right: 12px;
+}
+.reveal .slides section.references-slide #refs .csl-entry {
+  margin-bottom: 6px;
+}
+
+/* CalData wordmark (`logo: caldata-full`) is wider than the default ODI mark:
+   size it up slightly and move the footer text past it (screen and PDF). */
+.reveal .slide-logo {
+  height: 36px !important;
+  max-height: 36px !important;
+  bottom: 12px !important;
+}
+.reveal .footer {
+  left: 222px !important;
+}
+html.reveal-print .pdf-page .odi-pdf-logo {
+  height: 36px;
+  bottom: 12px;
+}
+html.reveal-print .pdf-page .odi-pdf-footer {
+  left: 222px;
+}
+
+/* The CalData wordmark is unreadable on red quote slides; swap in the brand's
+   dark-background version there (copied from the extension's logos/). */
+.odi-dark-slide .slide-logo,
+html.reveal-print .pdf-page.odi-pdf-dark .odi-pdf-logo {
+  content: url("images/caldata-full-dark.svg");
+}
+
+/* Keep the deck title on one line (theme default is 85px). */
+.reveal .slides section#title-slide .title {
+  font-size: 72px;
+}
+
+/* `## Title {.flow-slide}` with `::: {.flow}` of `::: {.flow-step}` blocks
+   (image, then caption): a full-width left-to-right flowchart under the title. */
+.reveal .slides section.slide.flow-slide .flow {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  column-gap: 48px;
+  align-items: stretch;
+  height: 470px;
+  margin-top: 10px;
+}
+.reveal .flow .flow-step {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 28px 14px 20px;
+  background: var(--brand-blue-tint);
+  border-top: 6px solid var(--brand-blue);
+  text-align: center;
+}
+/* Logos share one fixed-height box so the captions line up. */
+.reveal .flow .flow-step p:has(img) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 170px;
+  width: 100%;
+  margin: 0 0 24px;
+}
+.reveal .flow .flow-step img {
+  max-height: 150px !important;
+  max-width: 100% !important;
+  width: auto;
+  height: auto;
+  margin: 0 !important;
+  object-fit: contain;
+}
+.reveal .flow .flow-step p:not(:has(img)) {
+  margin: 0;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--brand-navy);
+}
+/* Arrow in the gap between steps. */
+.reveal .flow .flow-step + .flow-step::before {
+  content: "➔";
+  position: absolute;
+  left: -38px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 28px;
+  color: var(--brand-blue);
+}
+/* Last step (current role) highlighted. */
+.reveal .flow .flow-step:last-child {
+  background: var(--brand-orange-tint);
+  border-top-color: var(--brand-orange);
+}
+
+/* Poll answer options: compact, with the letter and short label in bold. */
+.reveal .poll-options p {
+  font-size: 20px;
+  line-height: 1.35;
+  margin: 0 0 14px;
+}
+.reveal .poll-code {
+  font-size: 20px;
+}
+
+/* Poll QR code: pinned to the top right of its column. Quarto columns are
+   inline-blocks, so align to the top of the row and right-align the image. */
+.reveal .column.poll-qr {
+  vertical-align: top;
+  text-align: right;
+}
+.reveal .column.poll-qr p {
+  margin: 0;
+}
+.reveal .column.poll-qr img {
+  margin: 0 !important;
+  vertical-align: top;
+}
+
+/* Small note under the poll QR code. */
+.reveal .column.poll-qr .poll-note {
+  margin-top: 20px;
+  margin-left: auto !important;
+  margin-right: 0 !important;
+  width: 240px;
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.35;
+  color: var(--brand-charcoal);
+}
+/* Tighter Menti join box so five options fit. */
+.reveal .poll-code {
+  margin-top: 20px;
+  padding: 10px 18px;
+}
+
+/* `## {.quote .two-quotes}`: two quotes plus a closing line on one red slide. */
+.reveal .slides section.slide.quote.two-quotes blockquote {
+  font-size: 30px;
+  line-height: 1.3;
+  margin: 0 0 6px;
+}
+.reveal .slides section.slide.quote.two-quotes blockquote + p {
+  font-family: var(--r-main-font);
+  line-height: 1.38;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0 0 48px;
+  opacity: 0.95;
+}
+.reveal .slides section.slide.quote.two-quotes > p:last-child {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 0;
+  padding-top: 24px;
+  border-top: 2px solid rgba(255, 255, 255, 0.6);
+}
+
+/* `::: {.takeaway .spaced}`: extra room above a takeaway box. */
+.reveal .takeaway.spaced {
+  margin-top: 56px;
+}
+
+/* `.highlights .light .roomy`: same grid with larger text, for slides with room. */
+.reveal .highlights.light.roomy {
+  font-size: 19px;
+  margin: 18px 0 28px;
+}
+.reveal .highlights.light.roomy .highlight {
+  padding: 14px 18px 18px;
+}
+.reveal .highlights.light.roomy .highlight h3 {
+  font-size: 19px;
+}
+
+/* `::: {.takeaway .nudge}`: a little extra room above a takeaway box. */
+.reveal .takeaway.nudge {
+  margin-top: 32px;
+}
+
+/* `::: {.spaced-block}` around a callout or box: room above it. */
+.reveal .spaced-block {
+  margin-top: 44px;
+}
+/* Larger callout text inside `.spaced-block` or `.big-callout`. */
+.reveal .spaced-block div.callout .callout-content,
+.reveal .spaced-block div.callout .callout-content p,
+.reveal .big-callout div.callout .callout-content,
+.reveal .big-callout div.callout .callout-content p {
+  font-size: 22px !important;
+  line-height: 1.4;
+}
+.reveal .spaced-block div.callout .callout-title,
+.reveal .spaced-block div.callout .callout-title p,
+.reveal .big-callout div.callout .callout-title,
+.reveal .big-callout div.callout .callout-title p {
+  font-size: 22px !important;
+}
+
+/* `.spaced-top` on any block: room above it. */
+.reveal .spaced-top {
+  margin-top: 44px !important;
+}
+
+/* `.two-quotes .paired`: two quotes from one source, single attribution. */
+.reveal .slides section.slide.quote.two-quotes.paired blockquote + blockquote {
+  margin-top: 40px;
+}
+.reveal .slides section.slide.quote.two-quotes.paired > p:last-child {
+  font-family: var(--r-main-font);
+  font-size: 20px;
+  border-top: 0;
+  padding-top: 0;
+  margin-top: 28px;
+}
+
+/* `::: {.read-this}`: a "start here" reading recommendation. */
+.reveal .read-this {
+  margin-top: 28px;
+  padding: 14px 18px;
+  background: var(--brand-orange-tint);
+  border-left: 4px solid var(--brand-orange);
+  font-size: 19px;
+  line-height: 1.4;
+  color: var(--brand-navy);
+}
+.reveal .read-this p {
+  margin: 0;
+}
+
+/* `.highlights .with-sources`: a small source line at the bottom of each box. */
+.reveal .highlights.with-sources .highlight {
+  display: flex;
+  flex-direction: column;
+}
+.reveal .highlights.with-sources .highlight p + p {
+  margin-top: auto;
+  padding-top: 10px;
+  font-size: 13.5px;
+  line-height: 1.35;
+  color: var(--brand-charcoal);
+}
+.reveal .highlights.light.with-sources {
+  font-size: 17px;
+  row-gap: 18px;
+}
+.reveal .highlights.light.with-sources .highlight {
+  padding: 14px 16px 16px;
+}
+.reveal .highlights.light.with-sources .highlight h3 {
+  font-size: 17px;
+}
+.reveal .highlights.with-sources .highlight p + p {
+  font-size: 14.5px;
+}
+
+/* `::: {.arrow-list .large}`: bigger arrow-list text, rows aligned across columns. */
+.reveal .arrow-list.large ul {
+  font-size: 25px;
+  margin-top: 28px;
+}
+.reveal .arrow-list.large li,
+.reveal .arrow-list.large li + li {
+  margin: 0 0 26px;
+}
+
+/* Exercise concept slides: hidden and matched cells in example tables. */
+.reveal .cell-hidden {
+  display: inline-block;
+  padding: 0 8px;
+  background: var(--brand-red-tint);
+  color: var(--brand-dark-red);
+  font-style: italic;
+  font-weight: 700;
+}
+.reveal .cell-match {
+  display: inline-block;
+  padding: 0 8px;
+  background: var(--brand-orange-tint);
+  color: var(--brand-navy);
+  font-weight: 700;
+  outline: 2px solid var(--brand-orange);
+}
+.reveal .equation {
+  margin: 18px 0 26px;
+  font-family: var(--r-heading-font);
+  font-size: 40px;
+  color: var(--brand-navy);
+}
+/* `::: {.big-table}`: larger text for small example tables. */
+.reveal .big-table table {
+  font-size: 22px;
+}
+.reveal .big-table table th,
+.reveal .big-table table td {
+  padding: 10px 22px;
+}
+.reveal .big-table table {
+  width: auto !important;
+  margin: 0 0 24px 0 !important;
+}
+.reveal .equation {
+  margin: 8px 0 18px;
+}
+
+/* Complementary suppression visual: `::: {.cs-grid}` of label, tiles, and note spans. */
+.reveal .cs-grid {
+  display: grid;
+  grid-template-columns: 250px repeat(5, 92px) 1fr;
+  column-gap: 8px;
+  row-gap: 14px;
+  align-items: center;
+  margin-top: 4px;
+}
+.reveal .cs-grid > p {
+  display: contents;
+}
+.reveal .cs-head {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--brand-charcoal);
+  text-align: center;
+}
+.reveal .cs-label {
+  font-size: 19px;
+  line-height: 1.25;
+  color: var(--brand-navy);
+}
+.reveal .cs-note {
+  font-size: 17px;
+  line-height: 1.35;
+  color: var(--brand-charcoal);
+  padding-left: 12px;
+}
+.reveal .tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  font-size: 26px;
+  font-weight: 700;
+  background: var(--brand-blue-tint);
+  color: var(--brand-navy);
+}
+.reveal .tile.t-total {
+  background: var(--brand-blue);
+  color: var(--brand-white);
+}
+.reveal .tile.t-hidden {
+  background: var(--brand-red-tint);
+  color: var(--brand-dark-red);
+  outline: 2px dashed var(--brand-red);
+  outline-offset: -2px;
+}
+.reveal .tile.t-exposed {
+  background: var(--brand-orange);
+  color: var(--brand-navy);
+}
