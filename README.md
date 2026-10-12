@@ -1,4 +1,4 @@
-# data-ethics-lecture
+# Data ethics and governance in the public sector
 
 Lecture and activity on public-sector data ethics and governance for UC Berkeley CYPLAN 101.
 
@@ -21,6 +21,6 @@ All data in the exercise is **synthetic**. County names are real and county size
 
 ## Contents
 
-- `slides/`: the lecture deck (Quarto reveal.js, CalData theme). Render locally with `quarto render` (output goes to `_site/`). Pushing changes to `main` republishes the site through GitHub Actions.
+- `slides/`: the lecture deck (Quarto reveal.js, CalData theme). To render locally, run `quarto render` from the repo root and open `_site/slides/index.html`. The `_site/` folder is gitignored, so your editor may grey it out or hide it. Pushing changes to `main` republishes the site through GitHub Actions.
 - `exercise/`: the student notebook, helper functions, and synthetic data.
 - `instructor/`: the debrief guide and a help guide for stuck students.
