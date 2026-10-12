@@ -1,0 +1,1625 @@
+county,county_population,race_ethnicity,age_group,enrolled
+Alameda,1682000,Hispanic or Latino,0-17,28086
+Alameda,1682000,Hispanic or Latino,18-34,19487
+Alameda,1682000,Hispanic or Latino,35-64,24087
+Alameda,1682000,Hispanic or Latino,65+,9537
+Alameda,1682000,White,0-17,17400
+Alameda,1682000,White,18-34,13622
+Alameda,1682000,White,35-64,18697
+Alameda,1682000,White,65+,7401
+Alameda,1682000,Asian,0-17,10381
+Alameda,1682000,Asian,18-34,7577
+Alameda,1682000,Asian,35-64,7589
+Alameda,1682000,Asian,65+,2757
+Alameda,1682000,Black or African American,0-17,3682
+Alameda,1682000,Black or African American,18-34,2449
+Alameda,1682000,Black or African American,35-64,3259
+Alameda,1682000,Black or African American,65+,1156
+Alameda,1682000,American Indian or Alaska Native,0-17,241
+Alameda,1682000,American Indian or Alaska Native,18-34,129
+Alameda,1682000,American Indian or Alaska Native,35-64,212
+Alameda,1682000,American Indian or Alaska Native,65+,78
+Alameda,1682000,Native Hawaiian or Pacific Islander,0-17,343
+Alameda,1682000,Native Hawaiian or Pacific Islander,18-34,198
+Alameda,1682000,Native Hawaiian or Pacific Islander,35-64,237
+Alameda,1682000,Native Hawaiian or Pacific Islander,65+,88
+Alameda,1682000,Multiracial or other,0-17,3299
+Alameda,1682000,Multiracial or other,18-34,1906
+Alameda,1682000,Multiracial or other,35-64,2765
+Alameda,1682000,Multiracial or other,65+,1340
+Alpine,1200,Hispanic or Latino,0-17,9
+Alpine,1200,Hispanic or Latino,18-34,4
+Alpine,1200,Hispanic or Latino,35-64,8
+Alpine,1200,Hispanic or Latino,65+,4
+Alpine,1200,White,0-17,29
+Alpine,1200,White,18-34,19
+Alpine,1200,White,35-64,17
+Alpine,1200,White,65+,10
+Alpine,1200,Asian,0-17,2
+Alpine,1200,Asian,18-34,0
+Alpine,1200,Asian,35-64,1
+Alpine,1200,Asian,65+,0
+Alpine,1200,Black or African American,0-17,2
+Alpine,1200,Black or African American,18-34,1
+Alpine,1200,Black or African American,35-64,0
+Alpine,1200,Black or African American,65+,1
+Alpine,1200,American Indian or Alaska Native,0-17,5
+Alpine,1200,American Indian or Alaska Native,18-34,5
+Alpine,1200,American Indian or Alaska Native,35-64,11
+Alpine,1200,American Indian or Alaska Native,65+,5
+Alpine,1200,Native Hawaiian or Pacific Islander,0-17,1
+Alpine,1200,Native Hawaiian or Pacific Islander,18-34,0
+Alpine,1200,Native Hawaiian or Pacific Islander,35-64,0
+Alpine,1200,Native Hawaiian or Pacific Islander,65+,0
+Alpine,1200,Multiracial or other,0-17,2
+Alpine,1200,Multiracial or other,18-34,1
+Alpine,1200,Multiracial or other,35-64,2
+Alpine,1200,Multiracial or other,65+,0
+Amador,41000,Hispanic or Latino,0-17,425
+Amador,41000,Hispanic or Latino,18-34,243
+Amador,41000,Hispanic or Latino,35-64,236
+Amador,41000,Hispanic or Latino,65+,89
+Amador,41000,White,0-17,979
+Amador,41000,White,18-34,703
+Amador,41000,White,35-64,753
+Amador,41000,White,65+,377
+Amador,41000,Asian,0-17,122
+Amador,41000,Asian,18-34,86
+Amador,41000,Asian,35-64,59
+Amador,41000,Asian,65+,30
+Amador,41000,Black or African American,0-17,53
+Amador,41000,Black or African American,18-34,34
+Amador,41000,Black or African American,35-64,42
+Amador,41000,Black or African American,65+,17
+Amador,41000,American Indian or Alaska Native,0-17,40
+Amador,41000,American Indian or Alaska Native,18-34,20
+Amador,41000,American Indian or Alaska Native,35-64,39
+Amador,41000,American Indian or Alaska Native,65+,10
+Amador,41000,Native Hawaiian or Pacific Islander,0-17,2
+Amador,41000,Native Hawaiian or Pacific Islander,18-34,5
+Amador,41000,Native Hawaiian or Pacific Islander,35-64,7
+Amador,41000,Native Hawaiian or Pacific Islander,65+,0
+Amador,41000,Multiracial or other,0-17,104
+Amador,41000,Multiracial or other,18-34,70
+Amador,41000,Multiracial or other,35-64,71
+Amador,41000,Multiracial or other,65+,30
+Butte,212000,Hispanic or Latino,0-17,2127
+Butte,212000,Hispanic or Latino,18-34,1588
+Butte,212000,Hispanic or Latino,35-64,2541
+Butte,212000,Hispanic or Latino,65+,775
+Butte,212000,White,0-17,4917
+Butte,212000,White,18-34,3078
+Butte,212000,White,35-64,3096
+Butte,212000,White,65+,1290
+Butte,212000,Asian,0-17,674
+Butte,212000,Asian,18-34,565
+Butte,212000,Asian,35-64,602
+Butte,212000,Asian,65+,221
+Butte,212000,Black or African American,0-17,397
+Butte,212000,Black or African American,18-34,290
+Butte,212000,Black or African American,35-64,284
+Butte,212000,Black or African American,65+,107
+Butte,212000,American Indian or Alaska Native,0-17,101
+Butte,212000,American Indian or Alaska Native,18-34,48
+Butte,212000,American Indian or Alaska Native,35-64,107
+Butte,212000,American Indian or Alaska Native,65+,24
+Butte,212000,Native Hawaiian or Pacific Islander,0-17,35
+Butte,212000,Native Hawaiian or Pacific Islander,18-34,23
+Butte,212000,Native Hawaiian or Pacific Islander,35-64,21
+Butte,212000,Native Hawaiian or Pacific Islander,65+,5
+Butte,212000,Multiracial or other,0-17,404
+Butte,212000,Multiracial or other,18-34,280
+Butte,212000,Multiracial or other,35-64,300
+Butte,212000,Multiracial or other,65+,126
+Calaveras,46000,Hispanic or Latino,0-17,551
+Calaveras,46000,Hispanic or Latino,18-34,376
+Calaveras,46000,Hispanic or Latino,35-64,417
+Calaveras,46000,Hispanic or Latino,65+,208
+Calaveras,46000,White,0-17,1051
+Calaveras,46000,White,18-34,564
+Calaveras,46000,White,35-64,937
+Calaveras,46000,White,65+,260
+Calaveras,46000,Asian,0-17,120
+Calaveras,46000,Asian,18-34,87
+Calaveras,46000,Asian,35-64,127
+Calaveras,46000,Asian,65+,36
+Calaveras,46000,Black or African American,0-17,55
+Calaveras,46000,Black or African American,18-34,45
+Calaveras,46000,Black or African American,35-64,55
+Calaveras,46000,Black or African American,65+,16
+Calaveras,46000,American Indian or Alaska Native,0-17,41
+Calaveras,46000,American Indian or Alaska Native,18-34,18
+Calaveras,46000,American Indian or Alaska Native,35-64,37
+Calaveras,46000,American Indian or Alaska Native,65+,7
+Calaveras,46000,Native Hawaiian or Pacific Islander,0-17,6
+Calaveras,46000,Native Hawaiian or Pacific Islander,18-34,2
+Calaveras,46000,Native Hawaiian or Pacific Islander,35-64,6
+Calaveras,46000,Native Hawaiian or Pacific Islander,65+,1
+Calaveras,46000,Multiracial or other,0-17,86
+Calaveras,46000,Multiracial or other,18-34,62
+Calaveras,46000,Multiracial or other,35-64,84
+Calaveras,46000,Multiracial or other,65+,13
+Colusa,22000,Hispanic or Latino,0-17,309
+Colusa,22000,Hispanic or Latino,18-34,194
+Colusa,22000,Hispanic or Latino,35-64,268
+Colusa,22000,Hispanic or Latino,65+,94
+Colusa,22000,White,0-17,429
+Colusa,22000,White,18-34,263
+Colusa,22000,White,35-64,425
+Colusa,22000,White,65+,129
+Colusa,22000,Asian,0-17,75
+Colusa,22000,Asian,18-34,61
+Colusa,22000,Asian,35-64,59
+Colusa,22000,Asian,65+,20
+Colusa,22000,Black or African American,0-17,45
+Colusa,22000,Black or African American,18-34,15
+Colusa,22000,Black or African American,35-64,32
+Colusa,22000,Black or African American,65+,7
+Colusa,22000,American Indian or Alaska Native,0-17,24
+Colusa,22000,American Indian or Alaska Native,18-34,13
+Colusa,22000,American Indian or Alaska Native,35-64,13
+Colusa,22000,American Indian or Alaska Native,65+,4
+Colusa,22000,Native Hawaiian or Pacific Islander,0-17,2
+Colusa,22000,Native Hawaiian or Pacific Islander,18-34,1
+Colusa,22000,Native Hawaiian or Pacific Islander,35-64,1
+Colusa,22000,Native Hawaiian or Pacific Islander,65+,1
+Colusa,22000,Multiracial or other,0-17,39
+Colusa,22000,Multiracial or other,18-34,25
+Colusa,22000,Multiracial or other,35-64,50
+Colusa,22000,Multiracial or other,65+,6
+Contra Costa,1166000,Hispanic or Latino,0-17,13387
+Contra Costa,1166000,Hispanic or Latino,18-34,11181
+Contra Costa,1166000,Hispanic or Latino,35-64,10490
+Contra Costa,1166000,Hispanic or Latino,65+,5146
+Contra Costa,1166000,White,0-17,20766
+Contra Costa,1166000,White,18-34,10293
+Contra Costa,1166000,White,35-64,17686
+Contra Costa,1166000,White,65+,5527
+Contra Costa,1166000,Asian,0-17,7551
+Contra Costa,1166000,Asian,18-34,6100
+Contra Costa,1166000,Asian,35-64,8022
+Contra Costa,1166000,Asian,65+,2781
+Contra Costa,1166000,Black or African American,0-17,2199
+Contra Costa,1166000,Black or African American,18-34,1398
+Contra Costa,1166000,Black or African American,35-64,1884
+Contra Costa,1166000,Black or African American,65+,915
+Contra Costa,1166000,American Indian or Alaska Native,0-17,248
+Contra Costa,1166000,American Indian or Alaska Native,18-34,90
+Contra Costa,1166000,American Indian or Alaska Native,35-64,178
+Contra Costa,1166000,American Indian or Alaska Native,65+,61
+Contra Costa,1166000,Native Hawaiian or Pacific Islander,0-17,150
+Contra Costa,1166000,Native Hawaiian or Pacific Islander,18-34,141
+Contra Costa,1166000,Native Hawaiian or Pacific Islander,35-64,183
+Contra Costa,1166000,Native Hawaiian or Pacific Islander,65+,59
+Contra Costa,1166000,Multiracial or other,0-17,1715
+Contra Costa,1166000,Multiracial or other,18-34,1052
+Contra Costa,1166000,Multiracial or other,35-64,1637
+Contra Costa,1166000,Multiracial or other,65+,499
+Del Norte,28000,Hispanic or Latino,0-17,361
+Del Norte,28000,Hispanic or Latino,18-34,249
+Del Norte,28000,Hispanic or Latino,35-64,321
+Del Norte,28000,Hispanic or Latino,65+,87
+Del Norte,28000,White,0-17,657
+Del Norte,28000,White,18-34,438
+Del Norte,28000,White,35-64,487
+Del Norte,28000,White,65+,144
+Del Norte,28000,Asian,0-17,40
+Del Norte,28000,Asian,18-34,43
+Del Norte,28000,Asian,35-64,64
+Del Norte,28000,Asian,65+,18
+Del Norte,28000,Black or African American,0-17,28
+Del Norte,28000,Black or African American,18-34,18
+Del Norte,28000,Black or African American,35-64,19
+Del Norte,28000,Black or African American,65+,7
+Del Norte,28000,American Indian or Alaska Native,0-17,23
+Del Norte,28000,American Indian or Alaska Native,18-34,19
+Del Norte,28000,American Indian or Alaska Native,35-64,29
+Del Norte,28000,American Indian or Alaska Native,65+,12
+Del Norte,28000,Native Hawaiian or Pacific Islander,0-17,4
+Del Norte,28000,Native Hawaiian or Pacific Islander,18-34,3
+Del Norte,28000,Native Hawaiian or Pacific Islander,35-64,2
+Del Norte,28000,Native Hawaiian or Pacific Islander,65+,0
+Del Norte,28000,Multiracial or other,0-17,74
+Del Norte,28000,Multiracial or other,18-34,40
+Del Norte,28000,Multiracial or other,35-64,60
+Del Norte,28000,Multiracial or other,65+,22
+El Dorado,192000,Hispanic or Latino,0-17,2164
+El Dorado,192000,Hispanic or Latino,18-34,1624
+El Dorado,192000,Hispanic or Latino,35-64,2234
+El Dorado,192000,Hispanic or Latino,65+,964
+El Dorado,192000,White,0-17,2823
+El Dorado,192000,White,18-34,1718
+El Dorado,192000,White,35-64,2739
+El Dorado,192000,White,65+,849
+El Dorado,192000,Asian,0-17,897
+El Dorado,192000,Asian,18-34,673
+El Dorado,192000,Asian,35-64,894
+El Dorado,192000,Asian,65+,266
+El Dorado,192000,Black or African American,0-17,451
+El Dorado,192000,Black or African American,18-34,282
+El Dorado,192000,Black or African American,35-64,343
+El Dorado,192000,Black or African American,65+,153
+El Dorado,192000,American Indian or Alaska Native,0-17,114
+El Dorado,192000,American Indian or Alaska Native,18-34,74
+El Dorado,192000,American Indian or Alaska Native,35-64,99
+El Dorado,192000,American Indian or Alaska Native,65+,38
+El Dorado,192000,Native Hawaiian or Pacific Islander,0-17,35
+El Dorado,192000,Native Hawaiian or Pacific Islander,18-34,25
+El Dorado,192000,Native Hawaiian or Pacific Islander,35-64,28
+El Dorado,192000,Native Hawaiian or Pacific Islander,65+,8
+El Dorado,192000,Multiracial or other,0-17,622
+El Dorado,192000,Multiracial or other,18-34,377
+El Dorado,192000,Multiracial or other,35-64,447
+El Dorado,192000,Multiracial or other,65+,183
+Fresno,1009000,Hispanic or Latino,0-17,16162
+Fresno,1009000,Hispanic or Latino,18-34,10659
+Fresno,1009000,Hispanic or Latino,35-64,11406
+Fresno,1009000,Hispanic or Latino,65+,4393
+Fresno,1009000,White,0-17,14085
+Fresno,1009000,White,18-34,13154
+Fresno,1009000,White,35-64,11755
+Fresno,1009000,White,65+,5473
+Fresno,1009000,Asian,0-17,4151
+Fresno,1009000,Asian,18-34,2716
+Fresno,1009000,Asian,35-64,3605
+Fresno,1009000,Asian,65+,1341
+Fresno,1009000,Black or African American,0-17,3145
+Fresno,1009000,Black or African American,18-34,1849
+Fresno,1009000,Black or African American,35-64,2038
+Fresno,1009000,Black or African American,65+,912
+Fresno,1009000,American Indian or Alaska Native,0-17,109
+Fresno,1009000,American Indian or Alaska Native,18-34,63
+Fresno,1009000,American Indian or Alaska Native,35-64,68
+Fresno,1009000,American Indian or Alaska Native,65+,33
+Fresno,1009000,Native Hawaiian or Pacific Islander,0-17,197
+Fresno,1009000,Native Hawaiian or Pacific Islander,18-34,87
+Fresno,1009000,Native Hawaiian or Pacific Islander,35-64,157
+Fresno,1009000,Native Hawaiian or Pacific Islander,65+,51
+Fresno,1009000,Multiracial or other,0-17,1771
+Fresno,1009000,Multiracial or other,18-34,1257
+Fresno,1009000,Multiracial or other,35-64,1390
+Fresno,1009000,Multiracial or other,65+,415
+Glenn,29000,Hispanic or Latino,0-17,248
+Glenn,29000,Hispanic or Latino,18-34,182
+Glenn,29000,Hispanic or Latino,35-64,217
+Glenn,29000,Hispanic or Latino,65+,65
+Glenn,29000,White,0-17,575
+Glenn,29000,White,18-34,469
+Glenn,29000,White,35-64,500
+Glenn,29000,White,65+,202
+Glenn,29000,Asian,0-17,113
+Glenn,29000,Asian,18-34,81
+Glenn,29000,Asian,35-64,68
+Glenn,29000,Asian,65+,33
+Glenn,29000,Black or African American,0-17,25
+Glenn,29000,Black or African American,18-34,20
+Glenn,29000,Black or African American,35-64,31
+Glenn,29000,Black or African American,65+,10
+Glenn,29000,American Indian or Alaska Native,0-17,26
+Glenn,29000,American Indian or Alaska Native,18-34,8
+Glenn,29000,American Indian or Alaska Native,35-64,18
+Glenn,29000,American Indian or Alaska Native,65+,9
+Glenn,29000,Native Hawaiian or Pacific Islander,0-17,3
+Glenn,29000,Native Hawaiian or Pacific Islander,18-34,2
+Glenn,29000,Native Hawaiian or Pacific Islander,35-64,2
+Glenn,29000,Native Hawaiian or Pacific Islander,65+,0
+Glenn,29000,Multiracial or other,0-17,49
+Glenn,29000,Multiracial or other,18-34,49
+Glenn,29000,Multiracial or other,35-64,56
+Glenn,29000,Multiracial or other,65+,26
+Humboldt,136000,Hispanic or Latino,0-17,2084
+Humboldt,136000,Hispanic or Latino,18-34,1395
+Humboldt,136000,Hispanic or Latino,35-64,1289
+Humboldt,136000,Hispanic or Latino,65+,448
+Humboldt,136000,White,0-17,2405
+Humboldt,136000,White,18-34,1253
+Humboldt,136000,White,35-64,2037
+Humboldt,136000,White,65+,856
+Humboldt,136000,Asian,0-17,585
+Humboldt,136000,Asian,18-34,392
+Humboldt,136000,Asian,35-64,604
+Humboldt,136000,Asian,65+,221
+Humboldt,136000,Black or African American,0-17,286
+Humboldt,136000,Black or African American,18-34,165
+Humboldt,136000,Black or African American,35-64,298
+Humboldt,136000,Black or African American,65+,97
+Humboldt,136000,American Indian or Alaska Native,0-17,65
+Humboldt,136000,American Indian or Alaska Native,18-34,73
+Humboldt,136000,American Indian or Alaska Native,35-64,61
+Humboldt,136000,American Indian or Alaska Native,65+,29
+Humboldt,136000,Native Hawaiian or Pacific Islander,0-17,30
+Humboldt,136000,Native Hawaiian or Pacific Islander,18-34,19
+Humboldt,136000,Native Hawaiian or Pacific Islander,35-64,18
+Humboldt,136000,Native Hawaiian or Pacific Islander,65+,11
+Humboldt,136000,Multiracial or other,0-17,191
+Humboldt,136000,Multiracial or other,18-34,158
+Humboldt,136000,Multiracial or other,35-64,141
+Humboldt,136000,Multiracial or other,65+,54
+Imperial,180000,Hispanic or Latino,0-17,2291
+Imperial,180000,Hispanic or Latino,18-34,1905
+Imperial,180000,Hispanic or Latino,35-64,2342
+Imperial,180000,Hispanic or Latino,65+,903
+Imperial,180000,White,0-17,2979
+Imperial,180000,White,18-34,2149
+Imperial,180000,White,35-64,1909
+Imperial,180000,White,65+,797
+Imperial,180000,Asian,0-17,970
+Imperial,180000,Asian,18-34,603
+Imperial,180000,Asian,35-64,842
+Imperial,180000,Asian,65+,292
+Imperial,180000,Black or African American,0-17,250
+Imperial,180000,Black or African American,18-34,212
+Imperial,180000,Black or African American,35-64,299
+Imperial,180000,Black or African American,65+,113
+Imperial,180000,American Indian or Alaska Native,0-17,107
+Imperial,180000,American Indian or Alaska Native,18-34,55
+Imperial,180000,American Indian or Alaska Native,35-64,88
+Imperial,180000,American Indian or Alaska Native,65+,28
+Imperial,180000,Native Hawaiian or Pacific Islander,0-17,33
+Imperial,180000,Native Hawaiian or Pacific Islander,18-34,30
+Imperial,180000,Native Hawaiian or Pacific Islander,35-64,31
+Imperial,180000,Native Hawaiian or Pacific Islander,65+,9
+Imperial,180000,Multiracial or other,0-17,377
+Imperial,180000,Multiracial or other,18-34,286
+Imperial,180000,Multiracial or other,35-64,266
+Imperial,180000,Multiracial or other,65+,117
+Inyo,19000,Hispanic or Latino,0-17,193
+Inyo,19000,Hispanic or Latino,18-34,93
+Inyo,19000,Hispanic or Latino,35-64,143
+Inyo,19000,Hispanic or Latino,65+,49
+Inyo,19000,White,0-17,469
+Inyo,19000,White,18-34,303
+Inyo,19000,White,35-64,318
+Inyo,19000,White,65+,133
+Inyo,19000,Asian,0-17,63
+Inyo,19000,Asian,18-34,61
+Inyo,19000,Asian,35-64,69
+Inyo,19000,Asian,65+,28
+Inyo,19000,Black or African American,0-17,24
+Inyo,19000,Black or African American,18-34,15
+Inyo,19000,Black or African American,35-64,18
+Inyo,19000,Black or African American,65+,7
+Inyo,19000,American Indian or Alaska Native,0-17,16
+Inyo,19000,American Indian or Alaska Native,18-34,9
+Inyo,19000,American Indian or Alaska Native,35-64,19
+Inyo,19000,American Indian or Alaska Native,65+,4
+Inyo,19000,Native Hawaiian or Pacific Islander,0-17,7
+Inyo,19000,Native Hawaiian or Pacific Islander,18-34,5
+Inyo,19000,Native Hawaiian or Pacific Islander,35-64,1
+Inyo,19000,Native Hawaiian or Pacific Islander,65+,1
+Inyo,19000,Multiracial or other,0-17,55
+Inyo,19000,Multiracial or other,18-34,50
+Inyo,19000,Multiracial or other,35-64,38
+Inyo,19000,Multiracial or other,65+,18
+Kern,909000,Hispanic or Latino,0-17,11474
+Kern,909000,Hispanic or Latino,18-34,7593
+Kern,909000,Hispanic or Latino,35-64,8441
+Kern,909000,Hispanic or Latino,65+,3293
+Kern,909000,White,0-17,12477
+Kern,909000,White,18-34,7011
+Kern,909000,White,35-64,12874
+Kern,909000,White,65+,3563
+Kern,909000,Asian,0-17,6113
+Kern,909000,Asian,18-34,4628
+Kern,909000,Asian,35-64,4737
+Kern,909000,Asian,65+,2175
+Kern,909000,Black or African American,0-17,2879
+Kern,909000,Black or African American,18-34,2073
+Kern,909000,Black or African American,35-64,2323
+Kern,909000,Black or African American,65+,827
+Kern,909000,American Indian or Alaska Native,0-17,136
+Kern,909000,American Indian or Alaska Native,18-34,97
+Kern,909000,American Indian or Alaska Native,35-64,173
+Kern,909000,American Indian or Alaska Native,65+,56
+Kern,909000,Native Hawaiian or Pacific Islander,0-17,140
+Kern,909000,Native Hawaiian or Pacific Islander,18-34,125
+Kern,909000,Native Hawaiian or Pacific Islander,35-64,149
+Kern,909000,Native Hawaiian or Pacific Islander,65+,59
+Kern,909000,Multiracial or other,0-17,1892
+Kern,909000,Multiracial or other,18-34,1277
+Kern,909000,Multiracial or other,35-64,2017
+Kern,909000,Multiracial or other,65+,676
+Kings,153000,Hispanic or Latino,0-17,2299
+Kings,153000,Hispanic or Latino,18-34,1458
+Kings,153000,Hispanic or Latino,35-64,1619
+Kings,153000,Hispanic or Latino,65+,783
+Kings,153000,White,0-17,2724
+Kings,153000,White,18-34,1482
+Kings,153000,White,35-64,2346
+Kings,153000,White,65+,807
+Kings,153000,Asian,0-17,602
+Kings,153000,Asian,18-34,381
+Kings,153000,Asian,35-64,467
+Kings,153000,Asian,65+,229
+Kings,153000,Black or African American,0-17,150
+Kings,153000,Black or African American,18-34,127
+Kings,153000,Black or African American,35-64,185
+Kings,153000,Black or African American,65+,49
+Kings,153000,American Indian or Alaska Native,0-17,46
+Kings,153000,American Indian or Alaska Native,18-34,46
+Kings,153000,American Indian or Alaska Native,35-64,47
+Kings,153000,American Indian or Alaska Native,65+,25
+Kings,153000,Native Hawaiian or Pacific Islander,0-17,13
+Kings,153000,Native Hawaiian or Pacific Islander,18-34,10
+Kings,153000,Native Hawaiian or Pacific Islander,35-64,11
+Kings,153000,Native Hawaiian or Pacific Islander,65+,2
+Kings,153000,Multiracial or other,0-17,387
+Kings,153000,Multiracial or other,18-34,250
+Kings,153000,Multiracial or other,35-64,286
+Kings,153000,Multiracial or other,65+,101
+Lake,68000,Hispanic or Latino,0-17,714
+Lake,68000,Hispanic or Latino,18-34,713
+Lake,68000,Hispanic or Latino,35-64,808
+Lake,68000,Hispanic or Latino,65+,381
+Lake,68000,White,0-17,1210
+Lake,68000,White,18-34,670
+Lake,68000,White,35-64,836
+Lake,68000,White,65+,321
+Lake,68000,Asian,0-17,390
+Lake,68000,Asian,18-34,225
+Lake,68000,Asian,35-64,324
+Lake,68000,Asian,65+,82
+Lake,68000,Black or African American,0-17,80
+Lake,68000,Black or African American,18-34,61
+Lake,68000,Black or African American,35-64,67
+Lake,68000,Black or African American,65+,22
+Lake,68000,American Indian or Alaska Native,0-17,71
+Lake,68000,American Indian or Alaska Native,18-34,46
+Lake,68000,American Indian or Alaska Native,35-64,35
+Lake,68000,American Indian or Alaska Native,65+,18
+Lake,68000,Native Hawaiian or Pacific Islander,0-17,13
+Lake,68000,Native Hawaiian or Pacific Islander,18-34,4
+Lake,68000,Native Hawaiian or Pacific Islander,35-64,13
+Lake,68000,Native Hawaiian or Pacific Islander,65+,5
+Lake,68000,Multiracial or other,0-17,135
+Lake,68000,Multiracial or other,18-34,81
+Lake,68000,Multiracial or other,35-64,99
+Lake,68000,Multiracial or other,65+,28
+Lassen,33000,Hispanic or Latino,0-17,298
+Lassen,33000,Hispanic or Latino,18-34,223
+Lassen,33000,Hispanic or Latino,35-64,280
+Lassen,33000,Hispanic or Latino,65+,114
+Lassen,33000,White,0-17,631
+Lassen,33000,White,18-34,468
+Lassen,33000,White,35-64,681
+Lassen,33000,White,65+,245
+Lassen,33000,Asian,0-17,138
+Lassen,33000,Asian,18-34,95
+Lassen,33000,Asian,35-64,96
+Lassen,33000,Asian,65+,42
+Lassen,33000,Black or African American,0-17,30
+Lassen,33000,Black or African American,18-34,22
+Lassen,33000,Black or African American,35-64,21
+Lassen,33000,Black or African American,65+,5
+Lassen,33000,American Indian or Alaska Native,0-17,31
+Lassen,33000,American Indian or Alaska Native,18-34,24
+Lassen,33000,American Indian or Alaska Native,35-64,25
+Lassen,33000,American Indian or Alaska Native,65+,9
+Lassen,33000,Native Hawaiian or Pacific Islander,0-17,4
+Lassen,33000,Native Hawaiian or Pacific Islander,18-34,2
+Lassen,33000,Native Hawaiian or Pacific Islander,35-64,1
+Lassen,33000,Native Hawaiian or Pacific Islander,65+,0
+Lassen,33000,Multiracial or other,0-17,56
+Lassen,33000,Multiracial or other,18-34,35
+Lassen,33000,Multiracial or other,35-64,73
+Lassen,33000,Multiracial or other,65+,27
+Los Angeles,10014000,Hispanic or Latino,0-17,161451
+Los Angeles,10014000,Hispanic or Latino,18-34,96575
+Los Angeles,10014000,Hispanic or Latino,35-64,163178
+Los Angeles,10014000,Hispanic or Latino,65+,55582
+Los Angeles,10014000,White,0-17,162476
+Los Angeles,10014000,White,18-34,110006
+Los Angeles,10014000,White,35-64,98385
+Los Angeles,10014000,White,65+,42312
+Los Angeles,10014000,Asian,0-17,42332
+Los Angeles,10014000,Asian,18-34,27424
+Los Angeles,10014000,Asian,35-64,38307
+Los Angeles,10014000,Asian,65+,17042
+Los Angeles,10014000,Black or African American,0-17,23848
+Los Angeles,10014000,Black or African American,18-34,12075
+Los Angeles,10014000,Black or African American,35-64,16907
+Los Angeles,10014000,Black or African American,65+,6592
+Los Angeles,10014000,American Indian or Alaska Native,0-17,1421
+Los Angeles,10014000,American Indian or Alaska Native,18-34,802
+Los Angeles,10014000,American Indian or Alaska Native,35-64,959
+Los Angeles,10014000,American Indian or Alaska Native,65+,488
+Los Angeles,10014000,Native Hawaiian or Pacific Islander,0-17,1895
+Los Angeles,10014000,Native Hawaiian or Pacific Islander,18-34,1027
+Los Angeles,10014000,Native Hawaiian or Pacific Islander,35-64,1346
+Los Angeles,10014000,Native Hawaiian or Pacific Islander,65+,554
+Los Angeles,10014000,Multiracial or other,0-17,12376
+Los Angeles,10014000,Multiracial or other,18-34,9579
+Los Angeles,10014000,Multiracial or other,35-64,10047
+Los Angeles,10014000,Multiracial or other,65+,5035
+Madera,157000,Hispanic or Latino,0-17,2283
+Madera,157000,Hispanic or Latino,18-34,1725
+Madera,157000,Hispanic or Latino,35-64,2171
+Madera,157000,Hispanic or Latino,65+,758
+Madera,157000,White,0-17,2306
+Madera,157000,White,18-34,1801
+Madera,157000,White,35-64,1983
+Madera,157000,White,65+,958
+Madera,157000,Asian,0-17,696
+Madera,157000,Asian,18-34,485
+Madera,157000,Asian,35-64,836
+Madera,157000,Asian,65+,295
+Madera,157000,Black or African American,0-17,242
+Madera,157000,Black or African American,18-34,180
+Madera,157000,Black or African American,35-64,189
+Madera,157000,Black or African American,65+,88
+Madera,157000,American Indian or Alaska Native,0-17,122
+Madera,157000,American Indian or Alaska Native,18-34,92
+Madera,157000,American Indian or Alaska Native,35-64,119
+Madera,157000,American Indian or Alaska Native,65+,45
+Madera,157000,Native Hawaiian or Pacific Islander,0-17,31
+Madera,157000,Native Hawaiian or Pacific Islander,18-34,24
+Madera,157000,Native Hawaiian or Pacific Islander,35-64,17
+Madera,157000,Native Hawaiian or Pacific Islander,65+,8
+Madera,157000,Multiracial or other,0-17,334
+Madera,157000,Multiracial or other,18-34,165
+Madera,157000,Multiracial or other,35-64,202
+Madera,157000,Multiracial or other,65+,114
+Marin,262000,Hispanic or Latino,0-17,3255
+Marin,262000,Hispanic or Latino,18-34,2320
+Marin,262000,Hispanic or Latino,35-64,2668
+Marin,262000,Hispanic or Latino,65+,1213
+Marin,262000,White,0-17,4994
+Marin,262000,White,18-34,2997
+Marin,262000,White,35-64,4244
+Marin,262000,White,65+,1367
+Marin,262000,Asian,0-17,932
+Marin,262000,Asian,18-34,790
+Marin,262000,Asian,35-64,790
+Marin,262000,Asian,65+,365
+Marin,262000,Black or African American,0-17,393
+Marin,262000,Black or African American,18-34,307
+Marin,262000,Black or African American,35-64,327
+Marin,262000,Black or African American,65+,148
+Marin,262000,American Indian or Alaska Native,0-17,114
+Marin,262000,American Indian or Alaska Native,18-34,60
+Marin,262000,American Indian or Alaska Native,35-64,104
+Marin,262000,American Indian or Alaska Native,65+,46
+Marin,262000,Native Hawaiian or Pacific Islander,0-17,25
+Marin,262000,Native Hawaiian or Pacific Islander,18-34,21
+Marin,262000,Native Hawaiian or Pacific Islander,35-64,20
+Marin,262000,Native Hawaiian or Pacific Islander,65+,12
+Marin,262000,Multiracial or other,0-17,550
+Marin,262000,Multiracial or other,18-34,378
+Marin,262000,Multiracial or other,35-64,512
+Marin,262000,Multiracial or other,65+,184
+Mariposa,17000,Hispanic or Latino,0-17,237
+Mariposa,17000,Hispanic or Latino,18-34,115
+Mariposa,17000,Hispanic or Latino,35-64,231
+Mariposa,17000,Hispanic or Latino,65+,74
+Mariposa,17000,White,0-17,309
+Mariposa,17000,White,18-34,279
+Mariposa,17000,White,35-64,314
+Mariposa,17000,White,65+,105
+Mariposa,17000,Asian,0-17,56
+Mariposa,17000,Asian,18-34,40
+Mariposa,17000,Asian,35-64,36
+Mariposa,17000,Asian,65+,14
+Mariposa,17000,Black or African American,0-17,12
+Mariposa,17000,Black or African American,18-34,17
+Mariposa,17000,Black or African American,35-64,23
+Mariposa,17000,Black or African American,65+,9
+Mariposa,17000,American Indian or Alaska Native,0-17,22
+Mariposa,17000,American Indian or Alaska Native,18-34,12
+Mariposa,17000,American Indian or Alaska Native,35-64,21
+Mariposa,17000,American Indian or Alaska Native,65+,7
+Mariposa,17000,Native Hawaiian or Pacific Islander,0-17,2
+Mariposa,17000,Native Hawaiian or Pacific Islander,18-34,0
+Mariposa,17000,Native Hawaiian or Pacific Islander,35-64,3
+Mariposa,17000,Native Hawaiian or Pacific Islander,65+,1
+Mariposa,17000,Multiracial or other,0-17,34
+Mariposa,17000,Multiracial or other,18-34,20
+Mariposa,17000,Multiracial or other,35-64,30
+Mariposa,17000,Multiracial or other,65+,6
+Mendocino,91000,Hispanic or Latino,0-17,1178
+Mendocino,91000,Hispanic or Latino,18-34,697
+Mendocino,91000,Hispanic or Latino,35-64,1112
+Mendocino,91000,Hispanic or Latino,65+,330
+Mendocino,91000,White,0-17,2109
+Mendocino,91000,White,18-34,1311
+Mendocino,91000,White,35-64,1363
+Mendocino,91000,White,65+,609
+Mendocino,91000,Asian,0-17,311
+Mendocino,91000,Asian,18-34,181
+Mendocino,91000,Asian,35-64,296
+Mendocino,91000,Asian,65+,124
+Mendocino,91000,Black or African American,0-17,132
+Mendocino,91000,Black or African American,18-34,80
+Mendocino,91000,Black or African American,35-64,72
+Mendocino,91000,Black or African American,65+,40
+Mendocino,91000,American Indian or Alaska Native,0-17,61
+Mendocino,91000,American Indian or Alaska Native,18-34,40
+Mendocino,91000,American Indian or Alaska Native,35-64,56
+Mendocino,91000,American Indian or Alaska Native,65+,20
+Mendocino,91000,Native Hawaiian or Pacific Islander,0-17,11
+Mendocino,91000,Native Hawaiian or Pacific Islander,18-34,2
+Mendocino,91000,Native Hawaiian or Pacific Islander,35-64,5
+Mendocino,91000,Native Hawaiian or Pacific Islander,65+,6
+Mendocino,91000,Multiracial or other,0-17,159
+Mendocino,91000,Multiracial or other,18-34,96
+Mendocino,91000,Multiracial or other,35-64,119
+Mendocino,91000,Multiracial or other,65+,47
+Merced,281000,Hispanic or Latino,0-17,4141
+Merced,281000,Hispanic or Latino,18-34,2702
+Merced,281000,Hispanic or Latino,35-64,3410
+Merced,281000,Hispanic or Latino,65+,1546
+Merced,281000,White,0-17,5627
+Merced,281000,White,18-34,2803
+Merced,281000,White,35-64,3730
+Merced,281000,White,65+,1430
+Merced,281000,Asian,0-17,1211
+Merced,281000,Asian,18-34,750
+Merced,281000,Asian,35-64,993
+Merced,281000,Asian,65+,302
+Merced,281000,Black or African American,0-17,436
+Merced,281000,Black or African American,18-34,270
+Merced,281000,Black or African American,35-64,338
+Merced,281000,Black or African American,65+,92
+Merced,281000,American Indian or Alaska Native,0-17,107
+Merced,281000,American Indian or Alaska Native,18-34,69
+Merced,281000,American Indian or Alaska Native,35-64,83
+Merced,281000,American Indian or Alaska Native,65+,28
+Merced,281000,Native Hawaiian or Pacific Islander,0-17,43
+Merced,281000,Native Hawaiian or Pacific Islander,18-34,18
+Merced,281000,Native Hawaiian or Pacific Islander,35-64,29
+Merced,281000,Native Hawaiian or Pacific Islander,65+,6
+Merced,281000,Multiracial or other,0-17,447
+Merced,281000,Multiracial or other,18-34,321
+Merced,281000,Multiracial or other,35-64,415
+Merced,281000,Multiracial or other,65+,199
+Modoc,8700,Hispanic or Latino,0-17,91
+Modoc,8700,Hispanic or Latino,18-34,70
+Modoc,8700,Hispanic or Latino,35-64,63
+Modoc,8700,Hispanic or Latino,65+,25
+Modoc,8700,White,0-17,203
+Modoc,8700,White,18-34,133
+Modoc,8700,White,35-64,145
+Modoc,8700,White,65+,69
+Modoc,8700,Asian,0-17,24
+Modoc,8700,Asian,18-34,7
+Modoc,8700,Asian,35-64,16
+Modoc,8700,Asian,65+,6
+Modoc,8700,Black or African American,0-17,7
+Modoc,8700,Black or African American,18-34,4
+Modoc,8700,Black or African American,35-64,11
+Modoc,8700,Black or African American,65+,1
+Modoc,8700,American Indian or Alaska Native,0-17,16
+Modoc,8700,American Indian or Alaska Native,18-34,7
+Modoc,8700,American Indian or Alaska Native,35-64,12
+Modoc,8700,American Indian or Alaska Native,65+,4
+Modoc,8700,Native Hawaiian or Pacific Islander,0-17,1
+Modoc,8700,Native Hawaiian or Pacific Islander,18-34,0
+Modoc,8700,Native Hawaiian or Pacific Islander,35-64,1
+Modoc,8700,Native Hawaiian or Pacific Islander,65+,0
+Modoc,8700,Multiracial or other,0-17,20
+Modoc,8700,Multiracial or other,18-34,23
+Modoc,8700,Multiracial or other,35-64,13
+Modoc,8700,Multiracial or other,65+,9
+Mono,13000,Hispanic or Latino,0-17,80
+Mono,13000,Hispanic or Latino,18-34,77
+Mono,13000,Hispanic or Latino,35-64,106
+Mono,13000,Hispanic or Latino,65+,33
+Mono,13000,White,0-17,360
+Mono,13000,White,18-34,224
+Mono,13000,White,35-64,254
+Mono,13000,White,65+,96
+Mono,13000,Asian,0-17,34
+Mono,13000,Asian,18-34,37
+Mono,13000,Asian,35-64,28
+Mono,13000,Asian,65+,12
+Mono,13000,Black or African American,0-17,10
+Mono,13000,Black or African American,18-34,8
+Mono,13000,Black or African American,35-64,11
+Mono,13000,Black or African American,65+,5
+Mono,13000,American Indian or Alaska Native,0-17,21
+Mono,13000,American Indian or Alaska Native,18-34,7
+Mono,13000,American Indian or Alaska Native,35-64,14
+Mono,13000,American Indian or Alaska Native,65+,6
+Mono,13000,Native Hawaiian or Pacific Islander,0-17,0
+Mono,13000,Native Hawaiian or Pacific Islander,18-34,1
+Mono,13000,Native Hawaiian or Pacific Islander,35-64,1
+Mono,13000,Native Hawaiian or Pacific Islander,65+,2
+Mono,13000,Multiracial or other,0-17,16
+Mono,13000,Multiracial or other,18-34,16
+Mono,13000,Multiracial or other,35-64,21
+Mono,13000,Multiracial or other,65+,6
+Monterey,439000,Hispanic or Latino,0-17,5182
+Monterey,439000,Hispanic or Latino,18-34,3509
+Monterey,439000,Hispanic or Latino,35-64,5391
+Monterey,439000,Hispanic or Latino,65+,2195
+Monterey,439000,White,0-17,5666
+Monterey,439000,White,18-34,4022
+Monterey,439000,White,35-64,4877
+Monterey,439000,White,65+,2712
+Monterey,439000,Asian,0-17,2928
+Monterey,439000,Asian,18-34,1947
+Monterey,439000,Asian,35-64,3027
+Monterey,439000,Asian,65+,864
+Monterey,439000,Black or African American,0-17,1048
+Monterey,439000,Black or African American,18-34,752
+Monterey,439000,Black or African American,35-64,843
+Monterey,439000,Black or African American,65+,348
+Monterey,439000,American Indian or Alaska Native,0-17,173
+Monterey,439000,American Indian or Alaska Native,18-34,150
+Monterey,439000,American Indian or Alaska Native,35-64,150
+Monterey,439000,American Indian or Alaska Native,65+,48
+Monterey,439000,Native Hawaiian or Pacific Islander,0-17,53
+Monterey,439000,Native Hawaiian or Pacific Islander,18-34,37
+Monterey,439000,Native Hawaiian or Pacific Islander,35-64,69
+Monterey,439000,Native Hawaiian or Pacific Islander,65+,19
+Monterey,439000,Multiracial or other,0-17,730
+Monterey,439000,Multiracial or other,18-34,448
+Monterey,439000,Multiracial or other,35-64,731
+Monterey,439000,Multiracial or other,65+,177
+Napa,138000,Hispanic or Latino,0-17,1385
+Napa,138000,Hispanic or Latino,18-34,1313
+Napa,138000,Hispanic or Latino,35-64,1402
+Napa,138000,Hispanic or Latino,65+,544
+Napa,138000,White,0-17,2210
+Napa,138000,White,18-34,1628
+Napa,138000,White,35-64,1814
+Napa,138000,White,65+,921
+Napa,138000,Asian,0-17,651
+Napa,138000,Asian,18-34,386
+Napa,138000,Asian,35-64,450
+Napa,138000,Asian,65+,242
+Napa,138000,Black or African American,0-17,267
+Napa,138000,Black or African American,18-34,136
+Napa,138000,Black or African American,35-64,240
+Napa,138000,Black or African American,65+,57
+Napa,138000,American Indian or Alaska Native,0-17,100
+Napa,138000,American Indian or Alaska Native,18-34,40
+Napa,138000,American Indian or Alaska Native,35-64,76
+Napa,138000,American Indian or Alaska Native,65+,28
+Napa,138000,Native Hawaiian or Pacific Islander,0-17,15
+Napa,138000,Native Hawaiian or Pacific Islander,18-34,8
+Napa,138000,Native Hawaiian or Pacific Islander,35-64,7
+Napa,138000,Native Hawaiian or Pacific Islander,65+,3
+Napa,138000,Multiracial or other,0-17,306
+Napa,138000,Multiracial or other,18-34,150
+Napa,138000,Multiracial or other,35-64,182
+Napa,138000,Multiracial or other,65+,93
+Nevada,103000,Hispanic or Latino,0-17,1403
+Nevada,103000,Hispanic or Latino,18-34,1080
+Nevada,103000,Hispanic or Latino,35-64,1059
+Nevada,103000,Hispanic or Latino,65+,432
+Nevada,103000,White,0-17,1534
+Nevada,103000,White,18-34,1209
+Nevada,103000,White,35-64,1849
+Nevada,103000,White,65+,458
+Nevada,103000,Asian,0-17,391
+Nevada,103000,Asian,18-34,169
+Nevada,103000,Asian,35-64,318
+Nevada,103000,Asian,65+,115
+Nevada,103000,Black or African American,0-17,137
+Nevada,103000,Black or African American,18-34,136
+Nevada,103000,Black or African American,35-64,132
+Nevada,103000,Black or African American,65+,54
+Nevada,103000,American Indian or Alaska Native,0-17,38
+Nevada,103000,American Indian or Alaska Native,18-34,35
+Nevada,103000,American Indian or Alaska Native,35-64,51
+Nevada,103000,American Indian or Alaska Native,65+,23
+Nevada,103000,Native Hawaiian or Pacific Islander,0-17,21
+Nevada,103000,Native Hawaiian or Pacific Islander,18-34,9
+Nevada,103000,Native Hawaiian or Pacific Islander,35-64,17
+Nevada,103000,Native Hawaiian or Pacific Islander,65+,7
+Nevada,103000,Multiracial or other,0-17,145
+Nevada,103000,Multiracial or other,18-34,134
+Nevada,103000,Multiracial or other,35-64,128
+Nevada,103000,Multiracial or other,65+,57
+Orange,3186000,Hispanic or Latino,0-17,54612
+Orange,3186000,Hispanic or Latino,18-34,38180
+Orange,3186000,Hispanic or Latino,35-64,37208
+Orange,3186000,Hispanic or Latino,65+,19042
+Orange,3186000,White,0-17,43634
+Orange,3186000,White,18-34,29414
+Orange,3186000,White,35-64,35599
+Orange,3186000,White,65+,14343
+Orange,3186000,Asian,0-17,22324
+Orange,3186000,Asian,18-34,12985
+Orange,3186000,Asian,35-64,16665
+Orange,3186000,Asian,65+,6125
+Orange,3186000,Black or African American,0-17,6110
+Orange,3186000,Black or African American,18-34,4219
+Orange,3186000,Black or African American,35-64,7161
+Orange,3186000,Black or African American,65+,2128
+Orange,3186000,American Indian or Alaska Native,0-17,465
+Orange,3186000,American Indian or Alaska Native,18-34,388
+Orange,3186000,American Indian or Alaska Native,35-64,506
+Orange,3186000,American Indian or Alaska Native,65+,176
+Orange,3186000,Native Hawaiian or Pacific Islander,0-17,316
+Orange,3186000,Native Hawaiian or Pacific Islander,18-34,240
+Orange,3186000,Native Hawaiian or Pacific Islander,35-64,367
+Orange,3186000,Native Hawaiian or Pacific Islander,65+,113
+Orange,3186000,Multiracial or other,0-17,5284
+Orange,3186000,Multiracial or other,18-34,2904
+Orange,3186000,Multiracial or other,35-64,4880
+Orange,3186000,Multiracial or other,65+,1357
+Placer,405000,Hispanic or Latino,0-17,7619
+Placer,405000,Hispanic or Latino,18-34,4400
+Placer,405000,Hispanic or Latino,35-64,4977
+Placer,405000,Hispanic or Latino,65+,2007
+Placer,405000,White,0-17,4494
+Placer,405000,White,18-34,2841
+Placer,405000,White,35-64,5236
+Placer,405000,White,65+,1588
+Placer,405000,Asian,0-17,2413
+Placer,405000,Asian,18-34,1790
+Placer,405000,Asian,35-64,2212
+Placer,405000,Asian,65+,1010
+Placer,405000,Black or African American,0-17,640
+Placer,405000,Black or African American,18-34,626
+Placer,405000,Black or African American,35-64,584
+Placer,405000,Black or African American,65+,281
+Placer,405000,American Indian or Alaska Native,0-17,161
+Placer,405000,American Indian or Alaska Native,18-34,78
+Placer,405000,American Indian or Alaska Native,35-64,115
+Placer,405000,American Indian or Alaska Native,65+,51
+Placer,405000,Native Hawaiian or Pacific Islander,0-17,94
+Placer,405000,Native Hawaiian or Pacific Islander,18-34,62
+Placer,405000,Native Hawaiian or Pacific Islander,35-64,71
+Placer,405000,Native Hawaiian or Pacific Islander,65+,33
+Placer,405000,Multiracial or other,0-17,717
+Placer,405000,Multiracial or other,18-34,445
+Placer,405000,Multiracial or other,35-64,593
+Placer,405000,Multiracial or other,65+,221
+Plumas,20000,Hispanic or Latino,0-17,167
+Plumas,20000,Hispanic or Latino,18-34,120
+Plumas,20000,Hispanic or Latino,35-64,191
+Plumas,20000,Hispanic or Latino,65+,84
+Plumas,20000,White,0-17,475
+Plumas,20000,White,18-34,254
+Plumas,20000,White,35-64,333
+Plumas,20000,White,65+,160
+Plumas,20000,Asian,0-17,42
+Plumas,20000,Asian,18-34,38
+Plumas,20000,Asian,35-64,44
+Plumas,20000,Asian,65+,18
+Plumas,20000,Black or African American,0-17,19
+Plumas,20000,Black or African American,18-34,10
+Plumas,20000,Black or African American,35-64,23
+Plumas,20000,Black or African American,65+,12
+Plumas,20000,American Indian or Alaska Native,0-17,40
+Plumas,20000,American Indian or Alaska Native,18-34,14
+Plumas,20000,American Indian or Alaska Native,35-64,27
+Plumas,20000,American Indian or Alaska Native,65+,9
+Plumas,20000,Native Hawaiian or Pacific Islander,0-17,5
+Plumas,20000,Native Hawaiian or Pacific Islander,18-34,1
+Plumas,20000,Native Hawaiian or Pacific Islander,35-64,3
+Plumas,20000,Native Hawaiian or Pacific Islander,65+,0
+Plumas,20000,Multiracial or other,0-17,45
+Plumas,20000,Multiracial or other,18-34,24
+Plumas,20000,Multiracial or other,35-64,37
+Plumas,20000,Multiracial or other,65+,11
+Riverside,2418000,Hispanic or Latino,0-17,40569
+Riverside,2418000,Hispanic or Latino,18-34,28505
+Riverside,2418000,Hispanic or Latino,35-64,37223
+Riverside,2418000,Hispanic or Latino,65+,12027
+Riverside,2418000,White,0-17,36088
+Riverside,2418000,White,18-34,21727
+Riverside,2418000,White,35-64,37283
+Riverside,2418000,White,65+,11819
+Riverside,2418000,Asian,0-17,11053
+Riverside,2418000,Asian,18-34,5843
+Riverside,2418000,Asian,35-64,8509
+Riverside,2418000,Asian,65+,2757
+Riverside,2418000,Black or African American,0-17,6117
+Riverside,2418000,Black or African American,18-34,4272
+Riverside,2418000,Black or African American,35-64,6328
+Riverside,2418000,Black or African American,65+,1958
+Riverside,2418000,American Indian or Alaska Native,0-17,517
+Riverside,2418000,American Indian or Alaska Native,18-34,298
+Riverside,2418000,American Indian or Alaska Native,35-64,434
+Riverside,2418000,American Indian or Alaska Native,65+,113
+Riverside,2418000,Native Hawaiian or Pacific Islander,0-17,562
+Riverside,2418000,Native Hawaiian or Pacific Islander,18-34,272
+Riverside,2418000,Native Hawaiian or Pacific Islander,35-64,353
+Riverside,2418000,Native Hawaiian or Pacific Islander,65+,156
+Riverside,2418000,Multiracial or other,0-17,4372
+Riverside,2418000,Multiracial or other,18-34,2627
+Riverside,2418000,Multiracial or other,35-64,3916
+Riverside,2418000,Multiracial or other,65+,1183
+Sacramento,1585000,Hispanic or Latino,0-17,20486
+Sacramento,1585000,Hispanic or Latino,18-34,14048
+Sacramento,1585000,Hispanic or Latino,35-64,24577
+Sacramento,1585000,Hispanic or Latino,65+,7275
+Sacramento,1585000,White,0-17,26451
+Sacramento,1585000,White,18-34,15872
+Sacramento,1585000,White,35-64,19399
+Sacramento,1585000,White,65+,6559
+Sacramento,1585000,Asian,0-17,8476
+Sacramento,1585000,Asian,18-34,7817
+Sacramento,1585000,Asian,35-64,8413
+Sacramento,1585000,Asian,65+,3013
+Sacramento,1585000,Black or African American,0-17,2496
+Sacramento,1585000,Black or African American,18-34,1379
+Sacramento,1585000,Black or African American,35-64,2419
+Sacramento,1585000,Black or African American,65+,740
+Sacramento,1585000,American Indian or Alaska Native,0-17,138
+Sacramento,1585000,American Indian or Alaska Native,18-34,92
+Sacramento,1585000,American Indian or Alaska Native,35-64,141
+Sacramento,1585000,American Indian or Alaska Native,65+,53
+Sacramento,1585000,Native Hawaiian or Pacific Islander,0-17,241
+Sacramento,1585000,Native Hawaiian or Pacific Islander,18-34,181
+Sacramento,1585000,Native Hawaiian or Pacific Islander,35-64,176
+Sacramento,1585000,Native Hawaiian or Pacific Islander,65+,85
+Sacramento,1585000,Multiracial or other,0-17,2322
+Sacramento,1585000,Multiracial or other,18-34,1675
+Sacramento,1585000,Multiracial or other,35-64,2211
+Sacramento,1585000,Multiracial or other,65+,936
+San Benito,64000,Hispanic or Latino,0-17,844
+San Benito,64000,Hispanic or Latino,18-34,535
+San Benito,64000,Hispanic or Latino,35-64,740
+San Benito,64000,Hispanic or Latino,65+,204
+San Benito,64000,White,0-17,1021
+San Benito,64000,White,18-34,663
+San Benito,64000,White,35-64,792
+San Benito,64000,White,65+,373
+San Benito,64000,Asian,0-17,226
+San Benito,64000,Asian,18-34,155
+San Benito,64000,Asian,35-64,207
+San Benito,64000,Asian,65+,113
+San Benito,64000,Black or African American,0-17,84
+San Benito,64000,Black or African American,18-34,78
+San Benito,64000,Black or African American,35-64,53
+San Benito,64000,Black or African American,65+,20
+San Benito,64000,American Indian or Alaska Native,0-17,60
+San Benito,64000,American Indian or Alaska Native,18-34,43
+San Benito,64000,American Indian or Alaska Native,35-64,61
+San Benito,64000,American Indian or Alaska Native,65+,16
+San Benito,64000,Native Hawaiian or Pacific Islander,0-17,10
+San Benito,64000,Native Hawaiian or Pacific Islander,18-34,3
+San Benito,64000,Native Hawaiian or Pacific Islander,35-64,12
+San Benito,64000,Native Hawaiian or Pacific Islander,65+,2
+San Benito,64000,Multiracial or other,0-17,86
+San Benito,64000,Multiracial or other,18-34,95
+San Benito,64000,Multiracial or other,35-64,105
+San Benito,64000,Multiracial or other,65+,56
+San Bernardino,2181000,Hispanic or Latino,0-17,41520
+San Bernardino,2181000,Hispanic or Latino,18-34,26007
+San Bernardino,2181000,Hispanic or Latino,35-64,29917
+San Bernardino,2181000,Hispanic or Latino,65+,12865
+San Bernardino,2181000,White,0-17,30095
+San Bernardino,2181000,White,18-34,21044
+San Bernardino,2181000,White,35-64,22572
+San Bernardino,2181000,White,65+,9947
+San Bernardino,2181000,Asian,0-17,16302
+San Bernardino,2181000,Asian,18-34,10685
+San Bernardino,2181000,Asian,35-64,12563
+San Bernardino,2181000,Asian,65+,4290
+San Bernardino,2181000,Black or African American,0-17,3445
+San Bernardino,2181000,Black or African American,18-34,3180
+San Bernardino,2181000,Black or African American,35-64,2997
+San Bernardino,2181000,Black or African American,65+,1106
+San Bernardino,2181000,American Indian or Alaska Native,0-17,281
+San Bernardino,2181000,American Indian or Alaska Native,18-34,252
+San Bernardino,2181000,American Indian or Alaska Native,35-64,307
+San Bernardino,2181000,American Indian or Alaska Native,65+,79
+San Bernardino,2181000,Native Hawaiian or Pacific Islander,0-17,430
+San Bernardino,2181000,Native Hawaiian or Pacific Islander,18-34,289
+San Bernardino,2181000,Native Hawaiian or Pacific Islander,35-64,342
+San Bernardino,2181000,Native Hawaiian or Pacific Islander,65+,120
+San Bernardino,2181000,Multiracial or other,0-17,3448
+San Bernardino,2181000,Multiracial or other,18-34,2262
+San Bernardino,2181000,Multiracial or other,35-64,2188
+San Bernardino,2181000,Multiracial or other,65+,974
+San Diego,3299000,Hispanic or Latino,0-17,57229
+San Diego,3299000,Hispanic or Latino,18-34,37923
+San Diego,3299000,Hispanic or Latino,35-64,38986
+San Diego,3299000,Hispanic or Latino,65+,18016
+San Diego,3299000,White,0-17,54484
+San Diego,3299000,White,18-34,27293
+San Diego,3299000,White,35-64,48996
+San Diego,3299000,White,65+,16231
+San Diego,3299000,Asian,0-17,14905
+San Diego,3299000,Asian,18-34,13661
+San Diego,3299000,Asian,35-64,17649
+San Diego,3299000,Asian,65+,5205
+San Diego,3299000,Black or African American,0-17,6023
+San Diego,3299000,Black or African American,18-34,2907
+San Diego,3299000,Black or African American,35-64,4258
+San Diego,3299000,Black or African American,65+,1596
+San Diego,3299000,American Indian or Alaska Native,0-17,378
+San Diego,3299000,American Indian or Alaska Native,18-34,396
+San Diego,3299000,American Indian or Alaska Native,35-64,403
+San Diego,3299000,American Indian or Alaska Native,65+,165
+San Diego,3299000,Native Hawaiian or Pacific Islander,0-17,410
+San Diego,3299000,Native Hawaiian or Pacific Islander,18-34,319
+San Diego,3299000,Native Hawaiian or Pacific Islander,35-64,388
+San Diego,3299000,Native Hawaiian or Pacific Islander,65+,154
+San Diego,3299000,Multiracial or other,0-17,4410
+San Diego,3299000,Multiracial or other,18-34,2729
+San Diego,3299000,Multiracial or other,35-64,3476
+San Diego,3299000,Multiracial or other,65+,1333
+San Francisco,874000,Hispanic or Latino,0-17,12190
+San Francisco,874000,Hispanic or Latino,18-34,10645
+San Francisco,874000,Hispanic or Latino,35-64,11949
+San Francisco,874000,Hispanic or Latino,65+,4039
+San Francisco,874000,White,0-17,14625
+San Francisco,874000,White,18-34,9146
+San Francisco,874000,White,35-64,12799
+San Francisco,874000,White,65+,3770
+San Francisco,874000,Asian,0-17,3984
+San Francisco,874000,Asian,18-34,2423
+San Francisco,874000,Asian,35-64,3491
+San Francisco,874000,Asian,65+,1039
+San Francisco,874000,Black or African American,0-17,1280
+San Francisco,874000,Black or African American,18-34,790
+San Francisco,874000,Black or African American,35-64,1062
+San Francisco,874000,Black or African American,65+,404
+San Francisco,874000,American Indian or Alaska Native,0-17,106
+San Francisco,874000,American Indian or Alaska Native,18-34,69
+San Francisco,874000,American Indian or Alaska Native,35-64,88
+San Francisco,874000,American Indian or Alaska Native,65+,46
+San Francisco,874000,Native Hawaiian or Pacific Islander,0-17,131
+San Francisco,874000,Native Hawaiian or Pacific Islander,18-34,84
+San Francisco,874000,Native Hawaiian or Pacific Islander,35-64,98
+San Francisco,874000,Native Hawaiian or Pacific Islander,65+,58
+San Francisco,874000,Multiracial or other,0-17,1543
+San Francisco,874000,Multiracial or other,18-34,841
+San Francisco,874000,Multiracial or other,35-64,1502
+San Francisco,874000,Multiracial or other,65+,390
+San Joaquin,779000,Hispanic or Latino,0-17,10012
+San Joaquin,779000,Hispanic or Latino,18-34,8050
+San Joaquin,779000,Hispanic or Latino,35-64,9558
+San Joaquin,779000,Hispanic or Latino,65+,4016
+San Joaquin,779000,White,0-17,11166
+San Joaquin,779000,White,18-34,7614
+San Joaquin,779000,White,35-64,9146
+San Joaquin,779000,White,65+,3074
+San Joaquin,779000,Asian,0-17,7235
+San Joaquin,779000,Asian,18-34,4691
+San Joaquin,779000,Asian,35-64,5607
+San Joaquin,779000,Asian,65+,2276
+San Joaquin,779000,Black or African American,0-17,1991
+San Joaquin,779000,Black or African American,18-34,1475
+San Joaquin,779000,Black or African American,35-64,1440
+San Joaquin,779000,Black or African American,65+,506
+San Joaquin,779000,American Indian or Alaska Native,0-17,164
+San Joaquin,779000,American Indian or Alaska Native,18-34,142
+San Joaquin,779000,American Indian or Alaska Native,35-64,162
+San Joaquin,779000,American Indian or Alaska Native,65+,57
+San Joaquin,779000,Native Hawaiian or Pacific Islander,0-17,136
+San Joaquin,779000,Native Hawaiian or Pacific Islander,18-34,100
+San Joaquin,779000,Native Hawaiian or Pacific Islander,35-64,151
+San Joaquin,779000,Native Hawaiian or Pacific Islander,65+,50
+San Joaquin,779000,Multiracial or other,0-17,926
+San Joaquin,779000,Multiracial or other,18-34,818
+San Joaquin,779000,Multiracial or other,35-64,765
+San Joaquin,779000,Multiracial or other,65+,295
+San Luis Obispo,283000,Hispanic or Latino,0-17,4351
+San Luis Obispo,283000,Hispanic or Latino,18-34,2138
+San Luis Obispo,283000,Hispanic or Latino,35-64,2740
+San Luis Obispo,283000,Hispanic or Latino,65+,1253
+San Luis Obispo,283000,White,0-17,4667
+San Luis Obispo,283000,White,18-34,2442
+San Luis Obispo,283000,White,35-64,4094
+San Luis Obispo,283000,White,65+,1546
+San Luis Obispo,283000,Asian,0-17,1361
+San Luis Obispo,283000,Asian,18-34,1084
+San Luis Obispo,283000,Asian,35-64,1166
+San Luis Obispo,283000,Asian,65+,432
+San Luis Obispo,283000,Black or African American,0-17,606
+San Luis Obispo,283000,Black or African American,18-34,406
+San Luis Obispo,283000,Black or African American,35-64,534
+San Luis Obispo,283000,Black or African American,65+,179
+San Luis Obispo,283000,American Indian or Alaska Native,0-17,159
+San Luis Obispo,283000,American Indian or Alaska Native,18-34,81
+San Luis Obispo,283000,American Indian or Alaska Native,35-64,108
+San Luis Obispo,283000,American Indian or Alaska Native,65+,47
+San Luis Obispo,283000,Native Hawaiian or Pacific Islander,0-17,46
+San Luis Obispo,283000,Native Hawaiian or Pacific Islander,18-34,23
+San Luis Obispo,283000,Native Hawaiian or Pacific Islander,35-64,41
+San Luis Obispo,283000,Native Hawaiian or Pacific Islander,65+,20
+San Luis Obispo,283000,Multiracial or other,0-17,442
+San Luis Obispo,283000,Multiracial or other,18-34,330
+San Luis Obispo,283000,Multiracial or other,35-64,546
+San Luis Obispo,283000,Multiracial or other,65+,244
+San Mateo,764000,Hispanic or Latino,0-17,14361
+San Mateo,764000,Hispanic or Latino,18-34,8651
+San Mateo,764000,Hispanic or Latino,35-64,13859
+San Mateo,764000,Hispanic or Latino,65+,3649
+San Mateo,764000,White,0-17,9081
+San Mateo,764000,White,18-34,6611
+San Mateo,764000,White,35-64,7625
+San Mateo,764000,White,65+,3161
+San Mateo,764000,Asian,0-17,4530
+San Mateo,764000,Asian,18-34,3068
+San Mateo,764000,Asian,35-64,4185
+San Mateo,764000,Asian,65+,1314
+San Mateo,764000,Black or African American,0-17,2575
+San Mateo,764000,Black or African American,18-34,1536
+San Mateo,764000,Black or African American,35-64,1714
+San Mateo,764000,Black or African American,65+,747
+San Mateo,764000,American Indian or Alaska Native,0-17,193
+San Mateo,764000,American Indian or Alaska Native,18-34,148
+San Mateo,764000,American Indian or Alaska Native,35-64,156
+San Mateo,764000,American Indian or Alaska Native,65+,77
+San Mateo,764000,Native Hawaiian or Pacific Islander,0-17,150
+San Mateo,764000,Native Hawaiian or Pacific Islander,18-34,105
+San Mateo,764000,Native Hawaiian or Pacific Islander,35-64,156
+San Mateo,764000,Native Hawaiian or Pacific Islander,65+,49
+San Mateo,764000,Multiracial or other,0-17,1775
+San Mateo,764000,Multiracial or other,18-34,1194
+San Mateo,764000,Multiracial or other,35-64,1319
+San Mateo,764000,Multiracial or other,65+,570
+Santa Barbara,449000,Hispanic or Latino,0-17,8089
+Santa Barbara,449000,Hispanic or Latino,18-34,5731
+Santa Barbara,449000,Hispanic or Latino,35-64,6123
+Santa Barbara,449000,Hispanic or Latino,65+,2528
+Santa Barbara,449000,White,0-17,8098
+Santa Barbara,449000,White,18-34,3924
+Santa Barbara,449000,White,35-64,6356
+Santa Barbara,449000,White,65+,1986
+Santa Barbara,449000,Asian,0-17,1891
+Santa Barbara,449000,Asian,18-34,1066
+Santa Barbara,449000,Asian,35-64,1856
+Santa Barbara,449000,Asian,65+,472
+Santa Barbara,449000,Black or African American,0-17,746
+Santa Barbara,449000,Black or African American,18-34,374
+Santa Barbara,449000,Black or African American,35-64,487
+Santa Barbara,449000,Black or African American,65+,250
+Santa Barbara,449000,American Indian or Alaska Native,0-17,138
+Santa Barbara,449000,American Indian or Alaska Native,18-34,103
+Santa Barbara,449000,American Indian or Alaska Native,35-64,118
+Santa Barbara,449000,American Indian or Alaska Native,65+,22
+Santa Barbara,449000,Native Hawaiian or Pacific Islander,0-17,67
+Santa Barbara,449000,Native Hawaiian or Pacific Islander,18-34,32
+Santa Barbara,449000,Native Hawaiian or Pacific Islander,35-64,44
+Santa Barbara,449000,Native Hawaiian or Pacific Islander,65+,17
+Santa Barbara,449000,Multiracial or other,0-17,744
+Santa Barbara,449000,Multiracial or other,18-34,399
+Santa Barbara,449000,Multiracial or other,35-64,707
+Santa Barbara,449000,Multiracial or other,65+,219
+Santa Clara,1936000,Hispanic or Latino,0-17,34161
+Santa Clara,1936000,Hispanic or Latino,18-34,18848
+Santa Clara,1936000,Hispanic or Latino,35-64,29300
+Santa Clara,1936000,Hispanic or Latino,65+,13301
+Santa Clara,1936000,White,0-17,30302
+Santa Clara,1936000,White,18-34,15677
+Santa Clara,1936000,White,35-64,25823
+Santa Clara,1936000,White,65+,7119
+Santa Clara,1936000,Asian,0-17,10385
+Santa Clara,1936000,Asian,18-34,5091
+Santa Clara,1936000,Asian,35-64,9539
+Santa Clara,1936000,Asian,65+,3425
+Santa Clara,1936000,Black or African American,0-17,2751
+Santa Clara,1936000,Black or African American,18-34,1833
+Santa Clara,1936000,Black or African American,35-64,2818
+Santa Clara,1936000,Black or African American,65+,868
+Santa Clara,1936000,American Indian or Alaska Native,0-17,322
+Santa Clara,1936000,American Indian or Alaska Native,18-34,258
+Santa Clara,1936000,American Indian or Alaska Native,35-64,319
+Santa Clara,1936000,American Indian or Alaska Native,65+,114
+Santa Clara,1936000,Native Hawaiian or Pacific Islander,0-17,386
+Santa Clara,1936000,Native Hawaiian or Pacific Islander,18-34,174
+Santa Clara,1936000,Native Hawaiian or Pacific Islander,35-64,233
+Santa Clara,1936000,Native Hawaiian or Pacific Islander,65+,80
+Santa Clara,1936000,Multiracial or other,0-17,3136
+Santa Clara,1936000,Multiracial or other,18-34,2369
+Santa Clara,1936000,Multiracial or other,35-64,2931
+Santa Clara,1936000,Multiracial or other,65+,853
+Santa Cruz,271000,Hispanic or Latino,0-17,4353
+Santa Cruz,271000,Hispanic or Latino,18-34,3099
+Santa Cruz,271000,Hispanic or Latino,35-64,4149
+Santa Cruz,271000,Hispanic or Latino,65+,1329
+Santa Cruz,271000,White,0-17,5278
+Santa Cruz,271000,White,18-34,3303
+Santa Cruz,271000,White,35-64,3197
+Santa Cruz,271000,White,65+,1673
+Santa Cruz,271000,Asian,0-17,1018
+Santa Cruz,271000,Asian,18-34,803
+Santa Cruz,271000,Asian,35-64,1124
+Santa Cruz,271000,Asian,65+,411
+Santa Cruz,271000,Black or African American,0-17,472
+Santa Cruz,271000,Black or African American,18-34,270
+Santa Cruz,271000,Black or African American,35-64,379
+Santa Cruz,271000,Black or African American,65+,138
+Santa Cruz,271000,American Indian or Alaska Native,0-17,99
+Santa Cruz,271000,American Indian or Alaska Native,18-34,74
+Santa Cruz,271000,American Indian or Alaska Native,35-64,100
+Santa Cruz,271000,American Indian or Alaska Native,65+,50
+Santa Cruz,271000,Native Hawaiian or Pacific Islander,0-17,36
+Santa Cruz,271000,Native Hawaiian or Pacific Islander,18-34,22
+Santa Cruz,271000,Native Hawaiian or Pacific Islander,35-64,27
+Santa Cruz,271000,Native Hawaiian or Pacific Islander,65+,13
+Santa Cruz,271000,Multiracial or other,0-17,372
+Santa Cruz,271000,Multiracial or other,18-34,230
+Santa Cruz,271000,Multiracial or other,35-64,312
+Santa Cruz,271000,Multiracial or other,65+,102
+Shasta,182000,Hispanic or Latino,0-17,2390
+Shasta,182000,Hispanic or Latino,18-34,1927
+Shasta,182000,Hispanic or Latino,35-64,2616
+Shasta,182000,Hispanic or Latino,65+,756
+Shasta,182000,White,0-17,3253
+Shasta,182000,White,18-34,1982
+Shasta,182000,White,35-64,2208
+Shasta,182000,White,65+,1071
+Shasta,182000,Asian,0-17,756
+Shasta,182000,Asian,18-34,559
+Shasta,182000,Asian,35-64,811
+Shasta,182000,Asian,65+,305
+Shasta,182000,Black or African American,0-17,351
+Shasta,182000,Black or African American,18-34,155
+Shasta,182000,Black or African American,35-64,256
+Shasta,182000,Black or African American,65+,134
+Shasta,182000,American Indian or Alaska Native,0-17,127
+Shasta,182000,American Indian or Alaska Native,18-34,110
+Shasta,182000,American Indian or Alaska Native,35-64,107
+Shasta,182000,American Indian or Alaska Native,65+,42
+Shasta,182000,Native Hawaiian or Pacific Islander,0-17,36
+Shasta,182000,Native Hawaiian or Pacific Islander,18-34,23
+Shasta,182000,Native Hawaiian or Pacific Islander,35-64,28
+Shasta,182000,Native Hawaiian or Pacific Islander,65+,9
+Shasta,182000,Multiracial or other,0-17,271
+Shasta,182000,Multiracial or other,18-34,217
+Shasta,182000,Multiracial or other,35-64,298
+Shasta,182000,Multiracial or other,65+,106
+Sierra,3200,Hispanic or Latino,0-17,24
+Sierra,3200,Hispanic or Latino,18-34,13
+Sierra,3200,Hispanic or Latino,35-64,19
+Sierra,3200,Hispanic or Latino,65+,12
+Sierra,3200,White,0-17,95
+Sierra,3200,White,18-34,56
+Sierra,3200,White,35-64,60
+Sierra,3200,White,65+,21
+Sierra,3200,Asian,0-17,3
+Sierra,3200,Asian,18-34,4
+Sierra,3200,Asian,35-64,2
+Sierra,3200,Asian,65+,2
+Sierra,3200,Black or African American,0-17,1
+Sierra,3200,Black or African American,18-34,0
+Sierra,3200,Black or African American,35-64,2
+Sierra,3200,Black or African American,65+,3
+Sierra,3200,American Indian or Alaska Native,0-17,2
+Sierra,3200,American Indian or Alaska Native,18-34,2
+Sierra,3200,American Indian or Alaska Native,35-64,2
+Sierra,3200,American Indian or Alaska Native,65+,1
+Sierra,3200,Native Hawaiian or Pacific Islander,0-17,0
+Sierra,3200,Native Hawaiian or Pacific Islander,18-34,0
+Sierra,3200,Native Hawaiian or Pacific Islander,35-64,1
+Sierra,3200,Native Hawaiian or Pacific Islander,65+,0
+Sierra,3200,Multiracial or other,0-17,12
+Sierra,3200,Multiracial or other,18-34,8
+Sierra,3200,Multiracial or other,35-64,5
+Sierra,3200,Multiracial or other,65+,3
+Siskiyou,44000,Hispanic or Latino,0-17,537
+Siskiyou,44000,Hispanic or Latino,18-34,502
+Siskiyou,44000,Hispanic or Latino,35-64,567
+Siskiyou,44000,Hispanic or Latino,65+,248
+Siskiyou,44000,White,0-17,651
+Siskiyou,44000,White,18-34,618
+Siskiyou,44000,White,35-64,600
+Siskiyou,44000,White,65+,233
+Siskiyou,44000,Asian,0-17,130
+Siskiyou,44000,Asian,18-34,84
+Siskiyou,44000,Asian,35-64,120
+Siskiyou,44000,Asian,65+,50
+Siskiyou,44000,Black or African American,0-17,60
+Siskiyou,44000,Black or African American,18-34,35
+Siskiyou,44000,Black or African American,35-64,42
+Siskiyou,44000,Black or African American,65+,20
+Siskiyou,44000,American Indian or Alaska Native,0-17,27
+Siskiyou,44000,American Indian or Alaska Native,18-34,16
+Siskiyou,44000,American Indian or Alaska Native,35-64,35
+Siskiyou,44000,American Indian or Alaska Native,65+,8
+Siskiyou,44000,Native Hawaiian or Pacific Islander,0-17,10
+Siskiyou,44000,Native Hawaiian or Pacific Islander,18-34,3
+Siskiyou,44000,Native Hawaiian or Pacific Islander,35-64,7
+Siskiyou,44000,Native Hawaiian or Pacific Islander,65+,3
+Siskiyou,44000,Multiracial or other,0-17,112
+Siskiyou,44000,Multiracial or other,18-34,85
+Siskiyou,44000,Multiracial or other,35-64,90
+Siskiyou,44000,Multiracial or other,65+,36
+Solano,453000,Hispanic or Latino,0-17,6296
+Solano,453000,Hispanic or Latino,18-34,4423
+Solano,453000,Hispanic or Latino,35-64,6352
+Solano,453000,Hispanic or Latino,65+,2313
+Solano,453000,White,0-17,5187
+Solano,453000,White,18-34,3878
+Solano,453000,White,35-64,5603
+Solano,453000,White,65+,1768
+Solano,453000,Asian,0-17,2013
+Solano,453000,Asian,18-34,1701
+Solano,453000,Asian,35-64,2384
+Solano,453000,Asian,65+,898
+Solano,453000,Black or African American,0-17,883
+Solano,453000,Black or African American,18-34,593
+Solano,453000,Black or African American,35-64,961
+Solano,453000,Black or African American,65+,371
+Solano,453000,American Indian or Alaska Native,0-17,132
+Solano,453000,American Indian or Alaska Native,18-34,68
+Solano,453000,American Indian or Alaska Native,35-64,134
+Solano,453000,American Indian or Alaska Native,65+,49
+Solano,453000,Native Hawaiian or Pacific Islander,0-17,100
+Solano,453000,Native Hawaiian or Pacific Islander,18-34,70
+Solano,453000,Native Hawaiian or Pacific Islander,35-64,79
+Solano,453000,Native Hawaiian or Pacific Islander,65+,26
+Solano,453000,Multiracial or other,0-17,1197
+Solano,453000,Multiracial or other,18-34,785
+Solano,453000,Multiracial or other,35-64,1038
+Solano,453000,Multiracial or other,65+,340
+Sonoma,489000,Hispanic or Latino,0-17,6054
+Sonoma,489000,Hispanic or Latino,18-34,4148
+Sonoma,489000,Hispanic or Latino,35-64,4881
+Sonoma,489000,Hispanic or Latino,65+,2396
+Sonoma,489000,White,0-17,8963
+Sonoma,489000,White,18-34,5806
+Sonoma,489000,White,35-64,5805
+Sonoma,489000,White,65+,1999
+Sonoma,489000,Asian,0-17,2560
+Sonoma,489000,Asian,18-34,1665
+Sonoma,489000,Asian,35-64,1912
+Sonoma,489000,Asian,65+,942
+Sonoma,489000,Black or African American,0-17,960
+Sonoma,489000,Black or African American,18-34,490
+Sonoma,489000,Black or African American,35-64,675
+Sonoma,489000,Black or African American,65+,291
+Sonoma,489000,American Indian or Alaska Native,0-17,189
+Sonoma,489000,American Indian or Alaska Native,18-34,125
+Sonoma,489000,American Indian or Alaska Native,35-64,144
+Sonoma,489000,American Indian or Alaska Native,65+,53
+Sonoma,489000,Native Hawaiian or Pacific Islander,0-17,52
+Sonoma,489000,Native Hawaiian or Pacific Islander,18-34,27
+Sonoma,489000,Native Hawaiian or Pacific Islander,35-64,54
+Sonoma,489000,Native Hawaiian or Pacific Islander,65+,24
+Sonoma,489000,Multiracial or other,0-17,881
+Sonoma,489000,Multiracial or other,18-34,416
+Sonoma,489000,Multiracial or other,35-64,679
+Sonoma,489000,Multiracial or other,65+,233
+Stanislaus,552000,Hispanic or Latino,0-17,10947
+Stanislaus,552000,Hispanic or Latino,18-34,5390
+Stanislaus,552000,Hispanic or Latino,35-64,7637
+Stanislaus,552000,Hispanic or Latino,65+,2592
+Stanislaus,552000,White,0-17,7404
+Stanislaus,552000,White,18-34,5391
+Stanislaus,552000,White,35-64,5346
+Stanislaus,552000,White,65+,2134
+Stanislaus,552000,Asian,0-17,2713
+Stanislaus,552000,Asian,18-34,2505
+Stanislaus,552000,Asian,35-64,2665
+Stanislaus,552000,Asian,65+,1010
+Stanislaus,552000,Black or African American,0-17,865
+Stanislaus,552000,Black or African American,18-34,589
+Stanislaus,552000,Black or African American,35-64,859
+Stanislaus,552000,Black or African American,65+,353
+Stanislaus,552000,American Indian or Alaska Native,0-17,116
+Stanislaus,552000,American Indian or Alaska Native,18-34,85
+Stanislaus,552000,American Indian or Alaska Native,35-64,109
+Stanislaus,552000,American Indian or Alaska Native,65+,46
+Stanislaus,552000,Native Hawaiian or Pacific Islander,0-17,65
+Stanislaus,552000,Native Hawaiian or Pacific Islander,18-34,38
+Stanislaus,552000,Native Hawaiian or Pacific Islander,35-64,46
+Stanislaus,552000,Native Hawaiian or Pacific Islander,65+,23
+Stanislaus,552000,Multiracial or other,0-17,858
+Stanislaus,552000,Multiracial or other,18-34,594
+Stanislaus,552000,Multiracial or other,35-64,861
+Stanislaus,552000,Multiracial or other,65+,342
+Sutter,99000,Hispanic or Latino,0-17,1198
+Sutter,99000,Hispanic or Latino,18-34,712
+Sutter,99000,Hispanic or Latino,35-64,963
+Sutter,99000,Hispanic or Latino,65+,421
+Sutter,99000,White,0-17,1953
+Sutter,99000,White,18-34,1300
+Sutter,99000,White,35-64,1395
+Sutter,99000,White,65+,430
+Sutter,99000,Asian,0-17,351
+Sutter,99000,Asian,18-34,302
+Sutter,99000,Asian,35-64,362
+Sutter,99000,Asian,65+,137
+Sutter,99000,Black or African American,0-17,189
+Sutter,99000,Black or African American,18-34,115
+Sutter,99000,Black or African American,35-64,148
+Sutter,99000,Black or African American,65+,61
+Sutter,99000,American Indian or Alaska Native,0-17,54
+Sutter,99000,American Indian or Alaska Native,18-34,46
+Sutter,99000,American Indian or Alaska Native,35-64,68
+Sutter,99000,American Indian or Alaska Native,65+,19
+Sutter,99000,Native Hawaiian or Pacific Islander,0-17,8
+Sutter,99000,Native Hawaiian or Pacific Islander,18-34,12
+Sutter,99000,Native Hawaiian or Pacific Islander,35-64,6
+Sutter,99000,Native Hawaiian or Pacific Islander,65+,4
+Sutter,99000,Multiracial or other,0-17,191
+Sutter,99000,Multiracial or other,18-34,161
+Sutter,99000,Multiracial or other,35-64,216
+Sutter,99000,Multiracial or other,65+,57
+Tehama,65000,Hispanic or Latino,0-17,945
+Tehama,65000,Hispanic or Latino,18-34,466
+Tehama,65000,Hispanic or Latino,35-64,875
+Tehama,65000,Hispanic or Latino,65+,301
+Tehama,65000,White,0-17,1149
+Tehama,65000,White,18-34,732
+Tehama,65000,White,35-64,1042
+Tehama,65000,White,65+,312
+Tehama,65000,Asian,0-17,166
+Tehama,65000,Asian,18-34,133
+Tehama,65000,Asian,35-64,132
+Tehama,65000,Asian,65+,67
+Tehama,65000,Black or African American,0-17,62
+Tehama,65000,Black or African American,18-34,50
+Tehama,65000,Black or African American,35-64,50
+Tehama,65000,Black or African American,65+,28
+Tehama,65000,American Indian or Alaska Native,0-17,60
+Tehama,65000,American Indian or Alaska Native,18-34,31
+Tehama,65000,American Indian or Alaska Native,35-64,35
+Tehama,65000,American Indian or Alaska Native,65+,13
+Tehama,65000,Native Hawaiian or Pacific Islander,0-17,13
+Tehama,65000,Native Hawaiian or Pacific Islander,18-34,6
+Tehama,65000,Native Hawaiian or Pacific Islander,35-64,6
+Tehama,65000,Native Hawaiian or Pacific Islander,65+,3
+Tehama,65000,Multiracial or other,0-17,121
+Tehama,65000,Multiracial or other,18-34,105
+Tehama,65000,Multiracial or other,35-64,134
+Tehama,65000,Multiracial or other,65+,40
+Trinity,16000,Hispanic or Latino,0-17,140
+Trinity,16000,Hispanic or Latino,18-34,114
+Trinity,16000,Hispanic or Latino,35-64,148
+Trinity,16000,Hispanic or Latino,65+,47
+Trinity,16000,White,0-17,502
+Trinity,16000,White,18-34,217
+Trinity,16000,White,35-64,410
+Trinity,16000,White,65+,112
+Trinity,16000,Asian,0-17,42
+Trinity,16000,Asian,18-34,27
+Trinity,16000,Asian,35-64,48
+Trinity,16000,Asian,65+,20
+Trinity,16000,Black or African American,0-17,8
+Trinity,16000,Black or African American,18-34,15
+Trinity,16000,Black or African American,35-64,8
+Trinity,16000,Black or African American,65+,5
+Trinity,16000,American Indian or Alaska Native,0-17,16
+Trinity,16000,American Indian or Alaska Native,18-34,5
+Trinity,16000,American Indian or Alaska Native,35-64,15
+Trinity,16000,American Indian or Alaska Native,65+,3
+Trinity,16000,Native Hawaiian or Pacific Islander,0-17,1
+Trinity,16000,Native Hawaiian or Pacific Islander,18-34,1
+Trinity,16000,Native Hawaiian or Pacific Islander,35-64,4
+Trinity,16000,Native Hawaiian or Pacific Islander,65+,2
+Trinity,16000,Multiracial or other,0-17,29
+Trinity,16000,Multiracial or other,18-34,15
+Trinity,16000,Multiracial or other,35-64,32
+Trinity,16000,Multiracial or other,65+,8
+Tulare,473000,Hispanic or Latino,0-17,5708
+Tulare,473000,Hispanic or Latino,18-34,4354
+Tulare,473000,Hispanic or Latino,35-64,5262
+Tulare,473000,Hispanic or Latino,65+,1647
+Tulare,473000,White,0-17,9120
+Tulare,473000,White,18-34,4787
+Tulare,473000,White,35-64,5976
+Tulare,473000,White,65+,2376
+Tulare,473000,Asian,0-17,2962
+Tulare,473000,Asian,18-34,1527
+Tulare,473000,Asian,35-64,1872
+Tulare,473000,Asian,65+,871
+Tulare,473000,Black or African American,0-17,872
+Tulare,473000,Black or African American,18-34,726
+Tulare,473000,Black or African American,35-64,823
+Tulare,473000,Black or African American,65+,385
+Tulare,473000,American Indian or Alaska Native,0-17,112
+Tulare,473000,American Indian or Alaska Native,18-34,83
+Tulare,473000,American Indian or Alaska Native,35-64,90
+Tulare,473000,American Indian or Alaska Native,65+,33
+Tulare,473000,Native Hawaiian or Pacific Islander,0-17,107
+Tulare,473000,Native Hawaiian or Pacific Islander,18-34,46
+Tulare,473000,Native Hawaiian or Pacific Islander,35-64,95
+Tulare,473000,Native Hawaiian or Pacific Islander,65+,35
+Tulare,473000,Multiracial or other,0-17,953
+Tulare,473000,Multiracial or other,18-34,561
+Tulare,473000,Multiracial or other,35-64,724
+Tulare,473000,Multiracial or other,65+,235
+Tuolumne,55000,Hispanic or Latino,0-17,715
+Tuolumne,55000,Hispanic or Latino,18-34,648
+Tuolumne,55000,Hispanic or Latino,35-64,606
+Tuolumne,55000,Hispanic or Latino,65+,237
+Tuolumne,55000,White,0-17,706
+Tuolumne,55000,White,18-34,626
+Tuolumne,55000,White,35-64,877
+Tuolumne,55000,White,65+,295
+Tuolumne,55000,Asian,0-17,274
+Tuolumne,55000,Asian,18-34,171
+Tuolumne,55000,Asian,35-64,189
+Tuolumne,55000,Asian,65+,81
+Tuolumne,55000,Black or African American,0-17,97
+Tuolumne,55000,Black or African American,18-34,69
+Tuolumne,55000,Black or African American,35-64,102
+Tuolumne,55000,Black or African American,65+,20
+Tuolumne,55000,American Indian or Alaska Native,0-17,37
+Tuolumne,55000,American Indian or Alaska Native,18-34,22
+Tuolumne,55000,American Indian or Alaska Native,35-64,38
+Tuolumne,55000,American Indian or Alaska Native,65+,12
+Tuolumne,55000,Native Hawaiian or Pacific Islander,0-17,8
+Tuolumne,55000,Native Hawaiian or Pacific Islander,18-34,2
+Tuolumne,55000,Native Hawaiian or Pacific Islander,35-64,6
+Tuolumne,55000,Native Hawaiian or Pacific Islander,65+,3
+Tuolumne,55000,Multiracial or other,0-17,146
+Tuolumne,55000,Multiracial or other,18-34,81
+Tuolumne,55000,Multiracial or other,35-64,83
+Tuolumne,55000,Multiracial or other,65+,33
+Ventura,843000,Hispanic or Latino,0-17,9993
+Ventura,843000,Hispanic or Latino,18-34,7388
+Ventura,843000,Hispanic or Latino,35-64,9924
+Ventura,843000,Hispanic or Latino,65+,4033
+Ventura,843000,White,0-17,11784
+Ventura,843000,White,18-34,8384
+Ventura,843000,White,35-64,11691
+Ventura,843000,White,65+,3961
+Ventura,843000,Asian,0-17,4277
+Ventura,843000,Asian,18-34,2745
+Ventura,843000,Asian,35-64,2954
+Ventura,843000,Asian,65+,1246
+Ventura,843000,Black or African American,0-17,2071
+Ventura,843000,Black or African American,18-34,1337
+Ventura,843000,Black or African American,35-64,1794
+Ventura,843000,Black or African American,65+,644
+Ventura,843000,American Indian or Alaska Native,0-17,197
+Ventura,843000,American Indian or Alaska Native,18-34,97
+Ventura,843000,American Indian or Alaska Native,35-64,149
+Ventura,843000,American Indian or Alaska Native,65+,54
+Ventura,843000,Native Hawaiian or Pacific Islander,0-17,150
+Ventura,843000,Native Hawaiian or Pacific Islander,18-34,104
+Ventura,843000,Native Hawaiian or Pacific Islander,35-64,138
+Ventura,843000,Native Hawaiian or Pacific Islander,65+,61
+Ventura,843000,Multiracial or other,0-17,1570
+Ventura,843000,Multiracial or other,18-34,821
+Ventura,843000,Multiracial or other,35-64,1273
+Ventura,843000,Multiracial or other,65+,389
+Yolo,217000,Hispanic or Latino,0-17,3728
+Yolo,217000,Hispanic or Latino,18-34,2496
+Yolo,217000,Hispanic or Latino,35-64,3470
+Yolo,217000,Hispanic or Latino,65+,1105
+Yolo,217000,White,0-17,3738
+Yolo,217000,White,18-34,2069
+Yolo,217000,White,35-64,2672
+Yolo,217000,White,65+,1112
+Yolo,217000,Asian,0-17,1107
+Yolo,217000,Asian,18-34,821
+Yolo,217000,Asian,35-64,1129
+Yolo,217000,Asian,65+,382
+Yolo,217000,Black or African American,0-17,383
+Yolo,217000,Black or African American,18-34,317
+Yolo,217000,Black or African American,35-64,366
+Yolo,217000,Black or African American,65+,179
+Yolo,217000,American Indian or Alaska Native,0-17,86
+Yolo,217000,American Indian or Alaska Native,18-34,43
+Yolo,217000,American Indian or Alaska Native,35-64,72
+Yolo,217000,American Indian or Alaska Native,65+,17
+Yolo,217000,Native Hawaiian or Pacific Islander,0-17,28
+Yolo,217000,Native Hawaiian or Pacific Islander,18-34,24
+Yolo,217000,Native Hawaiian or Pacific Islander,35-64,25
+Yolo,217000,Native Hawaiian or Pacific Islander,65+,12
+Yolo,217000,Multiracial or other,0-17,440
+Yolo,217000,Multiracial or other,18-34,248
+Yolo,217000,Multiracial or other,35-64,323
+Yolo,217000,Multiracial or other,65+,118
+Yuba,81000,Hispanic or Latino,0-17,690
+Yuba,81000,Hispanic or Latino,18-34,519
+Yuba,81000,Hispanic or Latino,35-64,692
+Yuba,81000,Hispanic or Latino,65+,296
+Yuba,81000,White,0-17,1749
+Yuba,81000,White,18-34,1269
+Yuba,81000,White,35-64,1692
+Yuba,81000,White,65+,543
+Yuba,81000,Asian,0-17,197
+Yuba,81000,Asian,18-34,198
+Yuba,81000,Asian,35-64,155
+Yuba,81000,Asian,65+,86
+Yuba,81000,Black or African American,0-17,101
+Yuba,81000,Black or African American,18-34,73
+Yuba,81000,Black or African American,35-64,67
+Yuba,81000,Black or African American,65+,38
+Yuba,81000,American Indian or Alaska Native,0-17,69
+Yuba,81000,American Indian or Alaska Native,18-34,46
+Yuba,81000,American Indian or Alaska Native,35-64,65
+Yuba,81000,American Indian or Alaska Native,65+,19
+Yuba,81000,Native Hawaiian or Pacific Islander,0-17,12
+Yuba,81000,Native Hawaiian or Pacific Islander,18-34,6
+Yuba,81000,Native Hawaiian or Pacific Islander,35-64,9
+Yuba,81000,Native Hawaiian or Pacific Islander,65+,3
+Yuba,81000,Multiracial or other,0-17,157
+Yuba,81000,Multiracial or other,18-34,130
+Yuba,81000,Multiracial or other,35-64,143
+Yuba,81000,Multiracial or other,65+,74
